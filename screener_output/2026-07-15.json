@@ -1,0 +1,759 @@
+{
+  "run_date": "2026-07-15",
+  "generated_at_utc": "2026-07-15T02:06:30.394793+00:00",
+  "config": {
+    "screens": [
+      "day_gainers",
+      "most_actives"
+    ],
+    "min_market_cap": 300000000,
+    "min_price_change_pct": 3.0,
+    "min_volume_spike_ratio": 1.5
+  },
+  "universe_pulled": {
+    "day_gainers": 100,
+    "most_actives": 100,
+    "total_unique": 190
+  },
+  "candidates_passed": 23,
+  "candidates": [
+    {
+      "symbol": "IBM",
+      "name": "International Business Machines Corporation",
+      "price": 217.07,
+      "change_percent": -25.2076,
+      "day_volume": 67422893,
+      "avg_volume_3m": 9113872,
+      "market_cap": 204020908032,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "most_actives"
+      ],
+      "volume_spike_ratio": 7.4,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 204020908032,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -25.2076,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 7.4,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "CLSK",
+      "name": "CleanSpark, Inc.",
+      "price": 13.45,
+      "change_percent": 8.818771,
+      "day_volume": 76365717,
+      "avg_volume_3m": 21268431,
+      "market_cap": 3451385856,
+      "sector": null,
+      "exchange": "NasdaqCM",
+      "source_screens": [
+        "day_gainers",
+        "most_actives"
+      ],
+      "volume_spike_ratio": 3.59,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 3451385856,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 8.818771,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 3.59,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "ERIC",
+      "name": "Telefonaktiebolaget LM Ericsson (publ)",
+      "price": 10.14,
+      "change_percent": -13.481228,
+      "day_volume": 39448202,
+      "avg_volume_3m": 11074962,
+      "market_cap": 33479731200,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "most_actives"
+      ],
+      "volume_spike_ratio": 3.56,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 33479731200,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -13.481228,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 3.56,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "PLBL",
+      "name": "Polibeli Group Ltd",
+      "price": 7.81,
+      "change_percent": 7.724137,
+      "day_volume": 469641,
+      "avg_volume_3m": 162762,
+      "market_cap": 2861486080,
+      "sector": null,
+      "exchange": "NasdaqGM",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 2.89,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2861486080,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 7.724137,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 2.89,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "C",
+      "name": "Citigroup Inc.",
+      "price": 133.27,
+      "change_percent": -5.28747,
+      "day_volume": 32124488,
+      "avg_volume_3m": 11971342,
+      "market_cap": 227302244352,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "most_actives"
+      ],
+      "volume_spike_ratio": 2.68,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 227302244352,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -5.28747,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 2.68,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "MDA",
+      "name": "MDA Space Ltd.",
+      "price": 33.89,
+      "change_percent": 7.68986,
+      "day_volume": 2825502,
+      "avg_volume_3m": 1309596,
+      "market_cap": 4707969536,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 2.16,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 4707969536,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 7.68986,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 2.16,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "TSEM",
+      "name": "Tower Semiconductor Ltd.",
+      "price": 255.49,
+      "change_percent": 11.237372,
+      "day_volume": 4655243,
+      "avg_volume_3m": 2167962,
+      "market_cap": 28878352384,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 2.15,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 28878352384,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 11.237372,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 2.15,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "AEHR",
+      "name": "Aehr Test Systems, Inc.",
+      "price": 72.01,
+      "change_percent": 5.865918,
+      "day_volume": 5049994,
+      "avg_volume_3m": 2476160,
+      "market_cap": 2264948992,
+      "sector": null,
+      "exchange": "NasdaqCM",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 2.04,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2264948992,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 5.865918,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 2.04,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "SYRE",
+      "name": "Spyre Therapeutics, Inc.",
+      "price": 98.95,
+      "change_percent": 5.56919,
+      "day_volume": 2776363,
+      "avg_volume_3m": 1410011,
+      "market_cap": 8592942080,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.97,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 8592942080,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 5.56919,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.97,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "WULF",
+      "name": "TeraWulf Inc.",
+      "price": 19.41,
+      "change_percent": -7.0847273,
+      "day_volume": 57994500,
+      "avg_volume_3m": 31559632,
+      "market_cap": 9618288640,
+      "sector": null,
+      "exchange": "NasdaqCM",
+      "source_screens": [
+        "most_actives"
+      ],
+      "volume_spike_ratio": 1.84,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 9618288640,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -7.0847273,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.84,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "NTSK",
+      "name": "Netskope, Inc.",
+      "price": 14.27,
+      "change_percent": 11.484377,
+      "day_volume": 10155424,
+      "avg_volume_3m": 5539021,
+      "market_cap": 5763990528,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.83,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 5763990528,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 11.484377,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.83,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "GS",
+      "name": "The Goldman Sachs Group, Inc.",
+      "price": 1140.0,
+      "change_percent": 8.99599,
+      "day_volume": 3791899,
+      "avg_volume_3m": 2084821,
+      "market_cap": 336308469760,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.82,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 336308469760,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 8.99599,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.82,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "RGC",
+      "name": "Regencell Bioscience Holdings Limited",
+      "price": 5.65,
+      "change_percent": 11.8811865,
+      "day_volume": 458111,
+      "avg_volume_3m": 252811,
+      "market_cap": 2793862400,
+      "sector": null,
+      "exchange": "NasdaqCM",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.81,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2793862400,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 11.8811865,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.81,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "S",
+      "name": "SentinelOne, Inc.",
+      "price": 19.92,
+      "change_percent": 7.38545,
+      "day_volume": 13524922,
+      "avg_volume_3m": 7875731,
+      "market_cap": 6828649984,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.72,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 6828649984,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 7.38545,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.72,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "VCTR",
+      "name": "Victory Capital Holdings, Inc.",
+      "price": 97.7,
+      "change_percent": 6.2187448,
+      "day_volume": 798836,
+      "avg_volume_3m": 484955,
+      "market_cap": 6109288448,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.65,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 6109288448,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 6.2187448,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.65,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "WIT",
+      "name": "Wipro Limited",
+      "price": 1.84,
+      "change_percent": -3.15789,
+      "day_volume": 20364583,
+      "avg_volume_3m": 12784811,
+      "market_cap": 18201239552,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "most_actives"
+      ],
+      "volume_spike_ratio": 1.59,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 18201239552,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -3.15789,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.59,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "WFG",
+      "name": "West Fraser Timber Co. Ltd.",
+      "price": 71.19,
+      "change_percent": 6.15867,
+      "day_volume": 290997,
+      "avg_volume_3m": 183880,
+      "market_cap": 5574449664,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.58,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 5574449664,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 6.15867,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.58,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "ERAS",
+      "name": "Erasca, Inc.",
+      "price": 19.5,
+      "change_percent": 8.938549,
+      "day_volume": 10704537,
+      "avg_volume_3m": 6838722,
+      "market_cap": 6064198656,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.57,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 6064198656,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 8.938549,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.57,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "CELC",
+      "name": "Celcuity Inc.",
+      "price": 111.05,
+      "change_percent": 6.9948955,
+      "day_volume": 2149848,
+      "avg_volume_3m": 1385173,
+      "market_cap": 5415496192,
+      "sector": null,
+      "exchange": "NasdaqCM",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.55,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 5415496192,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 6.9948955,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.55,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "ATAI",
+      "name": "AtaiBeckley Inc.",
+      "price": 5.67,
+      "change_percent": 14.084503,
+      "day_volume": 11875227,
+      "avg_volume_3m": 7773686,
+      "market_cap": 2087505152,
+      "sector": null,
+      "exchange": "NasdaqGM",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.53,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2087505152,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 14.084503,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.53,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "WRD",
+      "name": "WeRide Inc.",
+      "price": 6.12,
+      "change_percent": 6.620211,
+      "day_volume": 4039195,
+      "avg_volume_3m": 2660726,
+      "market_cap": 2013211520,
+      "sector": null,
+      "exchange": "NasdaqGM",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.52,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2013211520,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 6.620211,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.52,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "ONDS",
+      "name": "Ondas Inc.",
+      "price": 7.36,
+      "change_percent": 5.747128,
+      "day_volume": 108468080,
+      "avg_volume_3m": 71394331,
+      "market_cap": 4194012160,
+      "sector": null,
+      "exchange": "NasdaqCM",
+      "source_screens": [
+        "day_gainers",
+        "most_actives"
+      ],
+      "volume_spike_ratio": 1.52,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 4194012160,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 5.747128,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.52,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "VRNS",
+      "name": "Varonis Systems, Inc.",
+      "price": 48.19,
+      "change_percent": 6.1921587,
+      "day_volume": 3592954,
+      "avg_volume_3m": 2382908,
+      "market_cap": 5659805696,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.51,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 5659805696,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 6.1921587,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.51,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    }
+  ]
+}

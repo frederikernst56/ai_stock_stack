@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Reference/dependency clones, not part of this project's own code
+OpenBBTerminal/
+TradingAgents/
