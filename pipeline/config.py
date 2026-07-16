@@ -25,3 +25,32 @@ MIN_VOLUME_SPIKE_RATIO = 1.5  # day volume / 3-month average daily volume
 # --- Output ---
 
 SCREENER_OUTPUT_DIR = "screener_output"
+
+
+# --- Debate stage (analyst briefings + multi-agent debate) ---
+
+# How many of the screener's passed candidates to run the full debate on.
+# The screener can pass ~20+ tickers; debating all of them is expensive (six
+# live subagents each). Debate the strongest movers first, ranked as the
+# screener already sorts them (by volume-spike ratio).
+DEBATE_TOP_N = 5
+
+# Where per-run analyst briefings and debate results are written.
+DEBATE_OUTPUT_DIR = "debate_output"
+
+# Technical-analysis parameters for the briefing layer.
+TECH_HISTORY_PERIOD = "1y"      # yfinance history window (needs ~1y for the 200-day MA)
+TECH_RSI_PERIOD = 14
+TECH_MA_WINDOWS = [20, 50, 200]  # simple moving averages to report
+
+# Macro context tickers (index/rate proxies) pulled once per run, not per-stock.
+# Kept light on purpose: the Macro analyst reads the regime, it doesn't model it.
+MACRO_TICKERS = {
+    "sp500": "^GSPC",
+    "nasdaq": "^IXIC",
+    "vix": "^VIX",          # volatility / risk appetite
+    "ten_year_yield": "^TNX",  # 10Y Treasury yield (x10)
+    "dollar_index": "DX-Y.NYB",
+    "oil_wti": "CL=F",
+}
+

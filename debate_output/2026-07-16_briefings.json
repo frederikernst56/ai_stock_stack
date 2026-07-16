@@ -1,0 +1,884 @@
+{
+  "run_date": "2026-07-16",
+  "generated_at_utc": "2026-07-16T05:28:16.695771+00:00",
+  "source_screener_file": "screener_output/2026-07-15.json",
+  "macro_context": {
+    "sp500": {
+      "available": true,
+      "last": 7572.4,
+      "change_1d_pct": 0.38,
+      "change_1m_pct": 0.81
+    },
+    "nasdaq": {
+      "available": true,
+      "last": 26269.23,
+      "change_1d_pct": 0.62,
+      "change_1m_pct": -0.41
+    },
+    "vix": {
+      "available": true,
+      "last": 15.67,
+      "change_1d_pct": -5.03,
+      "change_1m_pct": -3.27
+    },
+    "ten_year_yield": {
+      "available": true,
+      "last": 4.55,
+      "change_1d_pct": -0.87,
+      "change_1m_pct": 1.7
+    },
+    "dollar_index": {
+      "available": true,
+      "last": 100.49,
+      "change_1d_pct": -0.01,
+      "change_1m_pct": 0.95
+    },
+    "oil_wti": {
+      "available": true,
+      "last": 79.29,
+      "change_1d_pct": -0.39,
+      "change_1m_pct": 4.26
+    }
+  },
+  "briefing_count": 5,
+  "briefings": [
+    {
+      "symbol": "IBM",
+      "name": "International Business Machines Corporation",
+      "spot_price": 211.2,
+      "briefed_at_utc": "2026-07-16T05:28:02.803509+00:00",
+      "domains": {
+        "technical": {
+          "available": true,
+          "last_close": 211.2,
+          "rsi_14": 29.2,
+          "macd": {
+            "macd": -3.286,
+            "signal": 4.486,
+            "histogram": -7.772
+          },
+          "sma_20": 271.82,
+          "pct_vs_sma_20": -22.3,
+          "sma_50": 262.06,
+          "pct_vs_sma_50": -19.41,
+          "sma_200": 272.03,
+          "pct_vs_sma_200": -22.36,
+          "return_5d_pct": -30.08,
+          "return_1m_pct": -22.42,
+          "return_3m_pct": -11.45,
+          "period_high": 329.23,
+          "period_low": 211.2,
+          "pct_off_period_high": -35.85,
+          "recent_vs_base_volume": 2.19,
+          "history_period": "1y"
+        },
+        "fundamentals": {
+          "available": true,
+          "valuation": {
+            "trailing_pe": 19.2,
+            "forward_pe": 15.88,
+            "price_to_book": 6.02,
+            "price_to_sales": 2.88,
+            "ev_to_ebitda": 15.45
+          },
+          "profitability": {
+            "profit_margin_pct": 15.61,
+            "operating_margin_pct": 13.81,
+            "return_on_equity_pct": 35.77,
+            "return_on_assets_pct": 5.37
+          },
+          "growth": {
+            "revenue_growth_pct": 9.5,
+            "earnings_growth_pct": 14.2
+          },
+          "health": {
+            "debt_to_equity": 211.17,
+            "current_ratio": 0.8,
+            "total_cash": 11783000064,
+            "free_cashflow": 13080750080
+          },
+          "profile": {
+            "sector": "Technology",
+            "industry": "Information Technology Services",
+            "market_cap": 198503776256,
+            "beta": 0.68
+          }
+        },
+        "estimates": {
+          "available": true,
+          "recommendation_key": "buy",
+          "recommendation_mean": 1.96,
+          "num_analysts": 23,
+          "target_mean": 296.07,
+          "target_high": 390.0,
+          "target_low": 195.0,
+          "implied_upside_pct": 40.18,
+          "forward_pe": 15.88,
+          "next_earnings_date": null
+        },
+        "news": {
+          "available": true,
+          "headline_count": 8,
+          "headlines": [
+            {
+              "title": "Tech stocks live updates: Tech stocks rise as ASML raises forecast on strong demand for AI chips",
+              "publisher": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/technology/live/tech-stocks-live-updates-ai-trade-sk-hynix-124717493.html",
+              "published": "2026-07-13T12:47:17Z"
+            },
+            {
+              "title": "Why Did SPCX, IBM, BSX Drop To 52-Week Lows Today?",
+              "publisher": "Stocktwits",
+              "url": "https://stocktwits.com/news-articles/markets/equity/why-did-spcx-ibm-bsx-drop-to-52-week-lows-today/cZZ3D18R7rn",
+              "published": "2026-07-16T03:06:57Z"
+            },
+            {
+              "title": "HPE's 42x Multiple Tells Only Half the Story",
+              "publisher": "Trefis",
+              "url": "https://www.trefis.com/articles/607339/hpes-42x-multiple-tells-only-half-the-story/2026-07-15",
+              "published": "2026-07-16T00:54:22Z"
+            },
+            {
+              "title": "BILL, Marqeta, and Upland Software Shares Skyrocket, What You Need To Know",
+              "publisher": "StockStory",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/bill-marqeta-upland-software-shares-224821940.html",
+              "published": "2026-07-15T22:48:21Z"
+            },
+            {
+              "title": "DocuSign and Oracle Shares Skyrocket, What You Need To Know",
+              "publisher": "StockStory",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/docusign-oracle-shares-skyrocket-know-224021754.html",
+              "published": "2026-07-15T22:40:21Z"
+            },
+            {
+              "title": "Atlassian, Sprout Social, and Flywire Stocks Trade Up, What You Need To Know",
+              "publisher": "StockStory",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/atlassian-sprout-social-flywire-stocks-223221663.html",
+              "published": "2026-07-15T22:32:21Z"
+            },
+            {
+              "title": "Here's What IBM's Profit Warning Tells Us About the AI Market Right Now -- and What It Means for Investors",
+              "publisher": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/07/15/heres-what-ibms-profit-warning-tells-us-about-the/",
+              "published": "2026-07-15T22:30:00Z"
+            },
+            {
+              "title": "Jim Cramer shares strong verdict on IBM stock for investors",
+              "publisher": "TheStreet",
+              "url": "https://www.thestreet.com/investing/stocks/jim-cramer-shares-strong-verdict-on-ibm-stock-for-investors",
+              "published": "2026-07-15T22:17:00Z"
+            }
+          ]
+        },
+        "options": {
+          "available": true,
+          "expiry": "2026-07-17",
+          "call_open_interest": 0,
+          "put_open_interest": 164,
+          "put_call_oi_ratio": null,
+          "atm_implied_vol_pct": 0.78,
+          "implied_move_pct": 3.24
+        },
+        "macro": {
+          "sp500": {
+            "available": true,
+            "last": 7572.4,
+            "change_1d_pct": 0.38,
+            "change_1m_pct": 0.81
+          },
+          "nasdaq": {
+            "available": true,
+            "last": 26269.23,
+            "change_1d_pct": 0.62,
+            "change_1m_pct": -0.41
+          },
+          "vix": {
+            "available": true,
+            "last": 15.67,
+            "change_1d_pct": -5.03,
+            "change_1m_pct": -3.27
+          },
+          "ten_year_yield": {
+            "available": true,
+            "last": 4.55,
+            "change_1d_pct": -0.87,
+            "change_1m_pct": 1.7
+          },
+          "dollar_index": {
+            "available": true,
+            "last": 100.49,
+            "change_1d_pct": -0.01,
+            "change_1m_pct": 0.95
+          },
+          "oil_wti": {
+            "available": true,
+            "last": 79.29,
+            "change_1d_pct": -0.39,
+            "change_1m_pct": 4.26
+          }
+        }
+      }
+    },
+    {
+      "symbol": "CLSK",
+      "name": "CleanSpark, Inc.",
+      "spot_price": 14.13,
+      "briefed_at_utc": "2026-07-16T05:28:05.849457+00:00",
+      "domains": {
+        "technical": {
+          "available": true,
+          "last_close": 14.13,
+          "rsi_14": 48.1,
+          "macd": {
+            "macd": -0.739,
+            "signal": -0.612,
+            "histogram": -0.127
+          },
+          "sma_20": 14.73,
+          "pct_vs_sma_20": -4.07,
+          "sma_50": 15.24,
+          "pct_vs_sma_50": -7.29,
+          "sma_200": 13.3,
+          "pct_vs_sma_200": 6.27,
+          "return_5d_pct": 13.95,
+          "return_1m_pct": -14.26,
+          "return_3m_pct": 25.38,
+          "period_high": 23.2,
+          "period_low": 8.18,
+          "pct_off_period_high": -39.09,
+          "recent_vs_base_volume": 1.42,
+          "history_period": "1y"
+        },
+        "fundamentals": {
+          "available": true,
+          "valuation": {
+            "trailing_pe": null,
+            "forward_pe": -19.49,
+            "price_to_book": 3.68,
+            "price_to_sales": 4.9,
+            "ev_to_ebitda": -13.3
+          },
+          "profitability": {
+            "profit_margin_pct": -67.66,
+            "operating_margin_pct": -246.28,
+            "return_on_equity_pct": -34.8,
+            "return_on_assets_pct": -18.24
+          },
+          "growth": {
+            "revenue_growth_pct": -24.9,
+            "earnings_growth_pct": null
+          },
+          "health": {
+            "debt_to_equity": 181.59,
+            "current_ratio": 8.26,
+            "total_cash": 260287008,
+            "free_cashflow": -300704512
+          },
+          "profile": {
+            "sector": "Financial Services",
+            "industry": "Capital Markets",
+            "market_cap": 3625879552,
+            "beta": 3.84
+          }
+        },
+        "estimates": {
+          "available": true,
+          "recommendation_key": "strong_buy",
+          "recommendation_mean": 1.31,
+          "num_analysts": 13,
+          "target_mean": 21.12,
+          "target_high": 27.0,
+          "target_low": 16.0,
+          "implied_upside_pct": 49.44,
+          "forward_pe": -19.49,
+          "next_earnings_date": null
+        },
+        "news": {
+          "available": true,
+          "headline_count": 8,
+          "headlines": [
+            {
+              "title": "Bernstein Reportedly Says Bitcoin Miners' AI Deals Look Cheap Vs. Data Center REITs \u2013 But Not All Are Equal",
+              "publisher": "Stocktwits",
+              "url": "https://stocktwits.com/news-articles/markets/equity/bernstein-bitcoin-miners-ai-returns-corz-wulf-cifr/cZZPJwuR7r5",
+              "published": "2026-07-15T16:34:11Z"
+            },
+            {
+              "title": "CleanSpark (CLSK) Surges 8.8%: Is This an Indication of Further Gains?",
+              "publisher": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cleanspark-clsk-surges-8-8-103900454.html",
+              "published": "2026-07-15T10:39:00Z"
+            },
+            {
+              "title": "CleanSpark (CLSK) Scores Billion-Dollar Deals in Georgia, Texas; Shares Climb",
+              "publisher": "Insider Monkey",
+              "url": "https://finance.yahoo.com/technology/ai/articles/cleanspark-clsk-scores-billion-dollar-233045263.html",
+              "published": "2026-07-14T23:30:45Z"
+            },
+            {
+              "title": "Bitcoin Mining Declined In June",
+              "publisher": "CryptoProwl",
+              "url": "https://www.cryptoprowl.com/releases/bitcoin-mining-declined-in-june-6156",
+              "published": "2026-07-14T22:26:00Z"
+            },
+            {
+              "title": "Why CleanSpark Stock Climbed Today",
+              "publisher": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/07/14/why-cleanspark-stock-climbed-today/",
+              "published": "2026-07-14T21:40:12Z"
+            },
+            {
+              "title": "Why CleanSpark\u2019s Sandersville AI deal is more than it seems",
+              "publisher": "Blockspace",
+              "url": "https://blockspace.media/short/why-cleansparks-sandersville-ai-deal-is-more-than-it-seems/",
+              "published": "2026-07-14T21:35:08Z"
+            },
+            {
+              "title": "CleanSpark signs 20-year, $6.6B AI lease for its Sandersville, Georgia site",
+              "publisher": "Blockspace",
+              "url": "https://blockspace.media/short/cleanspark-signs-20-year-6-6b-ai-lease-for-its-sandersville-georgia-site/",
+              "published": "2026-07-14T21:02:55Z"
+            },
+            {
+              "title": "CleanSpark Lands First HPC Lease Worth Nearly $7 Bil. Bitcoin Leads CPI-Fueled Crypto Surge.",
+              "publisher": "Investor's Business Daily",
+              "url": "https://www.investors.com/news/cleanspark-stock-hpc-ai-tenant-deal-6-6-billion-bitcoin-price-cpi-report-crypto-stocks/?src=A00220&yptr=yahoo",
+              "published": "2026-07-14T20:40:19Z"
+            }
+          ]
+        },
+        "options": {
+          "available": true,
+          "expiry": "2026-07-17",
+          "call_open_interest": 0,
+          "put_open_interest": 0,
+          "put_call_oi_ratio": null,
+          "atm_implied_vol_pct": 3.13,
+          "implied_move_pct": 6.72
+        },
+        "macro": {
+          "sp500": {
+            "available": true,
+            "last": 7572.4,
+            "change_1d_pct": 0.38,
+            "change_1m_pct": 0.81
+          },
+          "nasdaq": {
+            "available": true,
+            "last": 26269.23,
+            "change_1d_pct": 0.62,
+            "change_1m_pct": -0.41
+          },
+          "vix": {
+            "available": true,
+            "last": 15.67,
+            "change_1d_pct": -5.03,
+            "change_1m_pct": -3.27
+          },
+          "ten_year_yield": {
+            "available": true,
+            "last": 4.55,
+            "change_1d_pct": -0.87,
+            "change_1m_pct": 1.7
+          },
+          "dollar_index": {
+            "available": true,
+            "last": 100.49,
+            "change_1d_pct": -0.01,
+            "change_1m_pct": 0.95
+          },
+          "oil_wti": {
+            "available": true,
+            "last": 79.29,
+            "change_1d_pct": -0.39,
+            "change_1m_pct": 4.26
+          }
+        }
+      }
+    },
+    {
+      "symbol": "ERIC",
+      "name": "Telefonaktiebolaget LM Ericsson (publ)",
+      "spot_price": 10.07,
+      "briefed_at_utc": "2026-07-16T05:28:08.626155+00:00",
+      "domains": {
+        "technical": {
+          "available": true,
+          "last_close": 10.07,
+          "rsi_14": 34.7,
+          "macd": {
+            "macd": -0.371,
+            "signal": -0.33,
+            "histogram": -0.04
+          },
+          "sma_20": 11.12,
+          "pct_vs_sma_20": -9.43,
+          "sma_50": 12.02,
+          "pct_vs_sma_50": -16.19,
+          "sma_200": 10.64,
+          "pct_vs_sma_200": -5.39,
+          "return_5d_pct": -8.79,
+          "return_1m_pct": -18.0,
+          "return_3m_pct": -16.15,
+          "period_high": 13.74,
+          "period_low": 6.97,
+          "pct_off_period_high": -26.71,
+          "recent_vs_base_volume": 2.19,
+          "history_period": "1y"
+        },
+        "fundamentals": {
+          "available": true,
+          "valuation": {
+            "trailing_pe": 13.25,
+            "forward_pe": 16.18,
+            "price_to_book": 0.33,
+            "price_to_sales": null,
+            "ev_to_ebitda": null
+          },
+          "profitability": {
+            "profit_margin_pct": 10.83,
+            "operating_margin_pct": 0.0,
+            "return_on_equity_pct": 26.08,
+            "return_on_assets_pct": 6.95
+          },
+          "growth": {
+            "revenue_growth_pct": -6.1,
+            "earnings_growth_pct": -10.9
+          },
+          "health": {
+            "debt_to_equity": 37.68,
+            "current_ratio": 1.12,
+            "total_cash": null,
+            "free_cashflow": 30705874944
+          },
+          "profile": {
+            "sector": "Technology",
+            "industry": "Communication Equipment",
+            "market_cap": 33248606208,
+            "beta": 0.52
+          }
+        },
+        "estimates": {
+          "available": true,
+          "recommendation_key": "underperform",
+          "recommendation_mean": 3.57,
+          "num_analysts": 6,
+          "target_mean": 10.18,
+          "target_high": 11.4,
+          "target_low": 8.2,
+          "implied_upside_pct": 1.13,
+          "forward_pe": 16.18,
+          "next_earnings_date": null
+        },
+        "news": {
+          "available": true,
+          "headline_count": 8,
+          "headlines": [
+            {
+              "title": "Can Viavi Advance Next-Generation Network Security With SHIELD-6G?",
+              "publisher": "Zacks",
+              "url": "https://finance.yahoo.com/technology/ai/articles/viavi-advance-next-generation-network-152600612.html",
+              "published": "2026-07-15T15:26:00Z"
+            },
+            {
+              "title": "Ericsson (ERIC) Q2 2026 Earnings Call Transcript",
+              "publisher": "Motley Fool",
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/07/14/ericsson-eric-q2-2026-earnings-call-transcript/",
+              "published": "2026-07-15T00:29:43Z"
+            },
+            {
+              "title": "Tech, Media & Telecom Roundup: Market Talk",
+              "publisher": "The Wall Street Journal",
+              "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-5931cf15?siteid=yhoof2&yptr=yahoo",
+              "published": "2026-07-14T21:00:00Z"
+            },
+            {
+              "title": "AT&T (T) Tests 5G Drone Sensing That Points Toward Future 6G Uses",
+              "publisher": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/technology/articles/t-t-tests-5g-drone-151416232.html",
+              "published": "2026-07-14T15:14:16Z"
+            },
+            {
+              "title": "Telefonaktiebolaget L M Ericsson (ERIC) Q2 2026 Earnings Call Highlights: Navigating Challenges ...",
+              "publisher": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/telefonaktiebolaget-l-m-ericsson-eric-150018361.html",
+              "published": "2026-07-14T15:00:18Z"
+            },
+            {
+              "title": "Ericsson\u2019s AI Story Meets a Component Cost Reality Check",
+              "publisher": "Moby",
+              "url": "https://app.moby.co/home/news/news-ericssons-ai-story-meets-a-component-cost-reality-check?utm_source=yahoo_finance&utm_medium=rss",
+              "published": "2026-07-14T14:49:38Z"
+            },
+            {
+              "title": "Ericsson Q2 Earnings Meet Estimates Despite Margin Resilience",
+              "publisher": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/ericsson-q2-earnings-meet-estimates-133400645.html",
+              "published": "2026-07-14T13:34:00Z"
+            },
+            {
+              "title": "Ericsson Q2 Earnings Call Highlights",
+              "publisher": "MarketBeat",
+              "url": "https://www.marketbeat.com/instant-alerts/ericsson-q2-earnings-call-highlights-2026-07-14/?utm_source=yahoofinance&utm_medium=yahoofinance",
+              "published": "2026-07-14T09:02:27Z"
+            }
+          ]
+        },
+        "options": {
+          "available": true,
+          "expiry": "2026-10-16",
+          "call_open_interest": 308,
+          "put_open_interest": 0,
+          "put_call_oi_ratio": 0.0,
+          "atm_implied_vol_pct": 0.39,
+          "implied_move_pct": 14.8
+        },
+        "macro": {
+          "sp500": {
+            "available": true,
+            "last": 7572.4,
+            "change_1d_pct": 0.38,
+            "change_1m_pct": 0.81
+          },
+          "nasdaq": {
+            "available": true,
+            "last": 26269.23,
+            "change_1d_pct": 0.62,
+            "change_1m_pct": -0.41
+          },
+          "vix": {
+            "available": true,
+            "last": 15.67,
+            "change_1d_pct": -5.03,
+            "change_1m_pct": -3.27
+          },
+          "ten_year_yield": {
+            "available": true,
+            "last": 4.55,
+            "change_1d_pct": -0.87,
+            "change_1m_pct": 1.7
+          },
+          "dollar_index": {
+            "available": true,
+            "last": 100.49,
+            "change_1d_pct": -0.01,
+            "change_1m_pct": 0.95
+          },
+          "oil_wti": {
+            "available": true,
+            "last": 79.29,
+            "change_1d_pct": -0.39,
+            "change_1m_pct": 4.26
+          }
+        }
+      }
+    },
+    {
+      "symbol": "PLBL",
+      "name": "Polibeli Group Ltd",
+      "spot_price": 7.82,
+      "briefed_at_utc": "2026-07-16T05:28:11.846574+00:00",
+      "domains": {
+        "technical": {
+          "available": true,
+          "last_close": 7.82,
+          "rsi_14": 49.6,
+          "macd": {
+            "macd": 0.139,
+            "signal": 0.309,
+            "histogram": -0.17
+          },
+          "sma_20": 8.24,
+          "pct_vs_sma_20": -5.05,
+          "sma_50": 7.39,
+          "pct_vs_sma_50": 5.82,
+          "sma_200": 8.58,
+          "pct_vs_sma_200": -8.9,
+          "return_5d_pct": 4.69,
+          "return_1m_pct": 0.9,
+          "return_3m_pct": -6.01,
+          "period_high": 11.75,
+          "period_low": 5.22,
+          "pct_off_period_high": -33.45,
+          "recent_vs_base_volume": 3.95,
+          "history_period": "1y"
+        },
+        "fundamentals": {
+          "available": true,
+          "valuation": {
+            "trailing_pe": null,
+            "forward_pe": null,
+            "price_to_book": -63.06,
+            "price_to_sales": 108.45,
+            "ev_to_ebitda": -387.84
+          },
+          "profitability": {
+            "profit_margin_pct": -22.6,
+            "operating_margin_pct": -24.7,
+            "return_on_equity_pct": null,
+            "return_on_assets_pct": -24.5
+          },
+          "growth": {
+            "revenue_growth_pct": 61.1,
+            "earnings_growth_pct": null
+          },
+          "health": {
+            "debt_to_equity": null,
+            "current_ratio": 0.88,
+            "total_cash": 3086564,
+            "free_cashflow": -199612
+          },
+          "profile": {
+            "sector": "Consumer Cyclical",
+            "industry": "Department Stores",
+            "market_cap": 2865149952,
+            "beta": null
+          }
+        },
+        "estimates": {
+          "available": true,
+          "recommendation_key": "none",
+          "recommendation_mean": null,
+          "num_analysts": null,
+          "target_mean": null,
+          "target_high": null,
+          "target_low": null,
+          "implied_upside_pct": null,
+          "forward_pe": null,
+          "next_earnings_date": null
+        },
+        "news": {
+          "available": true,
+          "headline_count": 1,
+          "headlines": [
+            {
+              "title": "Polibeli Group (PLBL) Explores Thailand AI Computing Center With New Partner",
+              "publisher": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/technology/ai/articles/polibeli-group-plbl-explores-thailand-101140061.html",
+              "published": "2026-07-09T10:11:40Z"
+            }
+          ]
+        },
+        "options": {
+          "available": false,
+          "reason": "no listed options"
+        },
+        "macro": {
+          "sp500": {
+            "available": true,
+            "last": 7572.4,
+            "change_1d_pct": 0.38,
+            "change_1m_pct": 0.81
+          },
+          "nasdaq": {
+            "available": true,
+            "last": 26269.23,
+            "change_1d_pct": 0.62,
+            "change_1m_pct": -0.41
+          },
+          "vix": {
+            "available": true,
+            "last": 15.67,
+            "change_1d_pct": -5.03,
+            "change_1m_pct": -3.27
+          },
+          "ten_year_yield": {
+            "available": true,
+            "last": 4.55,
+            "change_1d_pct": -0.87,
+            "change_1m_pct": 1.7
+          },
+          "dollar_index": {
+            "available": true,
+            "last": 100.49,
+            "change_1d_pct": -0.01,
+            "change_1m_pct": 0.95
+          },
+          "oil_wti": {
+            "available": true,
+            "last": 79.29,
+            "change_1d_pct": -0.39,
+            "change_1m_pct": 4.26
+          }
+        }
+      }
+    },
+    {
+      "symbol": "C",
+      "name": "Citigroup Inc.",
+      "spot_price": 134.89,
+      "briefed_at_utc": "2026-07-16T05:28:14.024102+00:00",
+      "domains": {
+        "technical": {
+          "available": true,
+          "last_close": 134.89,
+          "rsi_14": 44.4,
+          "macd": {
+            "macd": 0.65,
+            "signal": 1.994,
+            "histogram": -1.344
+          },
+          "sma_20": 141.23,
+          "pct_vs_sma_20": -4.49,
+          "sma_50": 133.68,
+          "pct_vs_sma_50": 0.91,
+          "sma_200": 116.11,
+          "pct_vs_sma_200": 16.18,
+          "return_5d_pct": -1.82,
+          "return_1m_pct": -3.53,
+          "return_3m_pct": 4.59,
+          "period_high": 145.67,
+          "period_low": 88.02,
+          "pct_off_period_high": -7.4,
+          "recent_vs_base_volume": 1.35,
+          "history_period": "1y"
+        },
+        "fundamentals": {
+          "available": true,
+          "valuation": {
+            "trailing_pe": 14.37,
+            "forward_pe": 10.69,
+            "price_to_book": 1.2,
+            "price_to_sales": 2.87,
+            "ev_to_ebitda": null
+          },
+          "profitability": {
+            "profit_margin_pct": 20.36,
+            "operating_margin_pct": 34.08,
+            "return_on_equity_pct": 7.65,
+            "return_on_assets_pct": 0.61
+          },
+          "growth": {
+            "revenue_growth_pct": 15.9,
+            "earnings_growth_pct": 56.1
+          },
+          "health": {
+            "debt_to_equity": null,
+            "current_ratio": null,
+            "total_cash": 1046570008576,
+            "free_cashflow": null
+          },
+          "profile": {
+            "sector": "Financial Services",
+            "industry": "Banks - Diversified",
+            "market_cap": 226264498176,
+            "beta": 1.09
+          }
+        },
+        "estimates": {
+          "available": true,
+          "recommendation_key": "buy",
+          "recommendation_mean": 1.68,
+          "num_analysts": 20,
+          "target_mean": 155.85,
+          "target_high": 180.0,
+          "target_low": 125.0,
+          "implied_upside_pct": 15.54,
+          "forward_pe": 10.69,
+          "next_earnings_date": null
+        },
+        "news": {
+          "available": true,
+          "headline_count": 8,
+          "headlines": [
+            {
+              "title": "Wall Street Traders Are Having Their Best Year Ever",
+              "publisher": "The Wall Street Journal",
+              "url": "https://www.wsj.com/finance/banking/wall-street-traders-are-having-their-best-year-ever-a80f02ff?siteid=yhoof2&yptr=yahoo",
+              "published": "2026-07-16T02:00:00Z"
+            },
+            {
+              "title": "Early Q2 Results Reveal a Highly Robust Earnings Landscape",
+              "publisher": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/early-q2-results-reveal-highly-002000424.html",
+              "published": "2026-07-16T00:20:00Z"
+            },
+            {
+              "title": "Citi Trims Microsoft Target",
+              "publisher": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/citi-trims-microsoft-target-200322045.html",
+              "published": "2026-07-15T20:03:22Z"
+            },
+            {
+              "title": "Banks\u2019 Blowout Earnings Steal the Spotlight from Big Tech\u2014for Now",
+              "publisher": "Barrons.com",
+              "url": "https://www.barrons.com/articles/tech-stocks-bank-earnings-jpmorgan-chase-goldman-sachs-0546e8fb?siteid=yhoof2&yptr=yahoo",
+              "published": "2026-07-15T19:02:00Z"
+            },
+            {
+              "title": "Citigroup (C) Stock Could Be Trading Below Fair Value Today",
+              "publisher": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-c-stock-could-trading-171108472.html",
+              "published": "2026-07-15T17:11:08Z"
+            },
+            {
+              "title": "Why High Credit Card Delinquencies Aren\u2019t Showing Up at the Big Banks",
+              "publisher": "The Wall Street Journal",
+              "url": "https://www.wsj.com/finance/banking/why-high-credit-card-delinquencies-arent-showing-up-at-the-big-banks-3476c217?siteid=yhoof2&yptr=yahoo",
+              "published": "2026-07-15T17:07:00Z"
+            },
+            {
+              "title": "Micron Drops 8% on China Competition Fears, Dragging Intel, AMD, and Marvell",
+              "publisher": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/07/15/micron-drops-8-on-china-competition-fears-dragging-intel-amd-and-marvell/",
+              "published": "2026-07-15T16:01:53Z"
+            },
+            {
+              "title": "Citigroup's Best Quarterly Revenue in a Decade Supports Turnaround, RBC Says",
+              "publisher": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-apos-best-quarterly-revenue-154235807.html",
+              "published": "2026-07-15T15:42:35Z"
+            }
+          ]
+        },
+        "options": {
+          "available": true,
+          "expiry": "2026-07-17",
+          "call_open_interest": 5,
+          "put_open_interest": 7356,
+          "put_call_oi_ratio": 1471.2,
+          "atm_implied_vol_pct": 0.2,
+          "implied_move_pct": 2.17
+        },
+        "macro": {
+          "sp500": {
+            "available": true,
+            "last": 7572.4,
+            "change_1d_pct": 0.38,
+            "change_1m_pct": 0.81
+          },
+          "nasdaq": {
+            "available": true,
+            "last": 26269.23,
+            "change_1d_pct": 0.62,
+            "change_1m_pct": -0.41
+          },
+          "vix": {
+            "available": true,
+            "last": 15.67,
+            "change_1d_pct": -5.03,
+            "change_1m_pct": -3.27
+          },
+          "ten_year_yield": {
+            "available": true,
+            "last": 4.55,
+            "change_1d_pct": -0.87,
+            "change_1m_pct": 1.7
+          },
+          "dollar_index": {
+            "available": true,
+            "last": 100.49,
+            "change_1d_pct": -0.01,
+            "change_1m_pct": 0.95
+          },
+          "oil_wti": {
+            "available": true,
+            "last": 79.29,
+            "change_1d_pct": -0.39,
+            "change_1m_pct": 4.26
+          }
+        }
+      }
+    }
+  ]
+}

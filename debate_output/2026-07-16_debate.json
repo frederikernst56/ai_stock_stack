@@ -1,0 +1,165 @@
+{
+  "run_date": "2026-07-16",
+  "debates": [
+    {
+      "symbol": "IBM",
+      "spot_price": 211.2,
+      "debated_at_utc": "2026-07-16T06:24:22.317730+00:00",
+      "agent_verdicts": [
+        {
+          "domain": "technical",
+          "symbol": "IBM",
+          "bull_case": [
+            "RSI 29.2 oversold, room for mean-reversion bounce",
+            "Price 211.2 at 1y period low \u2014 potential basing/support",
+            "-30.08% 5d move is extreme, historically invites relief rally"
+          ],
+          "bear_case": [
+            "22.3%/19.41%/22.36% below 20/50/200 SMAs \u2014 broad downtrend",
+            "MACD histogram -7.772, no bullish crossover",
+            "New 1y low, -35.85% off high \u2014 trend continuation",
+            "2.19x base volume on breakdown \u2014 distribution",
+            "Returns accelerating down (-11.45% 3m, -22.42% 1m, -30.08% 5d)"
+          ],
+          "key_evidence": {
+            "rsi_14": 29.2,
+            "macd_histogram": -7.772,
+            "pct_vs_sma_50": -19.41,
+            "pct_vs_sma_200": -22.36,
+            "return_1m_pct": -22.42
+          },
+          "lean": "bear",
+          "conviction": 0.65,
+          "confidence": "high",
+          "one_line": "New period low on 2.19x volume and a -22% MACD-confirmed downtrend outweigh a merely oversold RSI."
+        },
+        {
+          "domain": "fundamentals",
+          "symbol": "IBM",
+          "bull_case": [
+            "Forward P/E 15.88 vs trailing 19.2 implies earnings acceleration (PEG ~1.1x)",
+            "ROE 35.77% exceptional",
+            "FCF $13.08B on $198.5B cap = ~6.6% FCF yield",
+            "Revenue growth 9.5% solid for mega-cap; margins 15.61%/13.81%",
+            "Beta 0.68 defensive"
+          ],
+          "bear_case": [
+            "Debt/equity 211.17 extreme \u2014 ROE is leverage-amplified",
+            "Current ratio 0.8 below 1.0 \u2014 liquidity flag",
+            "ROA only 5.37% vs ROE 35.77% confirms debt-propped returns",
+            "P/B 6.02, EV/EBITDA 15.45 not cheap given leverage/thin ROA",
+            "Trailing P/E 19.2 prices optimism \u2014 re-rating risk if acceleration fails"
+          ],
+          "key_evidence": {
+            "forward_pe": 15.88,
+            "profit_margin_pct": 15.61,
+            "return_on_equity_pct": 35.77,
+            "revenue_growth_pct": 9.5,
+            "debt_to_equity": 211.17
+          },
+          "lean": "bull",
+          "conviction": 0.55,
+          "confidence": "high",
+          "one_line": "Reasonable forward valuation and strong FCF outweigh high leverage and sub-1 current ratio."
+        },
+        {
+          "domain": "estimates",
+          "symbol": "IBM",
+          "bull_case": [
+            "Mean target $296.07 implies 40.18% upside",
+            "Recommendation mean 1.96 solidly buy across 23 analysts",
+            "Broad coverage (23) \u2014 consensus not fragile",
+            "Forward P/E 15.88 undemanding"
+          ],
+          "bear_case": [
+            "Stock hit 52wk lows on profit warning \u2014 $296.07 target almost certainly stale",
+            "Target range $195-$390 shows wide disagreement pre-warning",
+            "$195 target-low already below $211.20 spot pre-warning",
+            "No next earnings date \u2014 no confirmed catalyst to reset numbers"
+          ],
+          "key_evidence": {
+            "implied_upside_pct": 40.18,
+            "recommendation_mean": 1.96,
+            "num_analysts": 23,
+            "next_earnings_date": null
+          },
+          "lean": "bear",
+          "conviction": 0.55,
+          "confidence": "low",
+          "one_line": "Headline 40% upside looks stale post-warning; wide $195 target spread and pre-warning targets undercut the buy consensus."
+        },
+        {
+          "domain": "news",
+          "symbol": "IBM",
+          "bull_case": [
+            "Jim Cramer 'strong verdict' post-selloff \u2014 some see drop as overdone (TheStreet 2026-07-15)",
+            "CEO framed warning as timing/reallocation (client capex shift in final weeks of June), could reverse",
+            "ASML raised AI-chip forecast same week \u2014 AI capex not disappearing, reallocating away from IBM specifically"
+          ],
+          "bear_case": [
+            "Preliminary profit warning 2026-07-14: adj EPS $2.93 vs $3.01 est, revenue $17.2B vs $17.86B est (Motley Fool, TradingKey)",
+            "~25% single-session plunge, fresh 52wk low (Stocktwits)",
+            "Structural causes: z17 mainframe delays, rising chip costs compressing infra margins, clients redirecting budget to third-party hardware",
+            "Infrastructure revenue guided to decline; formal Q2 print 2026-07-22 is near-term event risk"
+          ],
+          "key_evidence": {
+            "primary_catalyst": "IBM preliminary Q2 profit warning (2026-07-14): EPS and revenue miss from client capex reallocation to hardware, z17 delays, rising chip costs",
+            "catalyst_type": "re-rating",
+            "searched": true
+          },
+          "lean": "bear",
+          "conviction": 0.75,
+          "confidence": "high",
+          "one_line": "IBM's 25% crash follows a real earnings/guidance miss with structural causes, not just sentiment \u2014 bearish into the 7/22 print."
+        },
+        {
+          "domain": "options",
+          "symbol": "IBM",
+          "bull_case": [
+            "Total OI thin (164 puts, 0 calls) \u2014 too small for meaningful overhang",
+            "3.24% implied move at 78% IV consistent with pre-catalyst vol pop that mean-reverts",
+            "Zero call OI means put/call is undefined, not bearish"
+          ],
+          "bear_case": [
+            "78% ATM IV extreme for IBM \u2014 market expects real turbulence into 2026-07-17",
+            "3.24% implied move = large binary-uncertainty, imminent catalyst",
+            "All 164 contracts on put side, zero calls \u2014 lopsided downside-only footprint"
+          ],
+          "key_evidence": {
+            "put_call_oi_ratio": null,
+            "atm_implied_vol_pct": 0.78,
+            "implied_move_pct": 3.24
+          },
+          "lean": "bear",
+          "conviction": 0.3,
+          "confidence": "low",
+          "one_line": "78% IV and a 3.24% implied move hint at event risk, but zero call OI makes the ratio undefined and the read unreliable."
+        },
+        {
+          "domain": "macro",
+          "symbol": "IBM",
+          "bull_case": [
+            "VIX 15.67 (-5.03% 1d, -3.27% 1m) \u2014 low, falling-vol risk-on regime supports IT multiples",
+            "S&P +0.38% 1d / +0.81% 1m \u2014 broad uptrend supportive of enterprise tech sentiment",
+            "10y yield -0.87% 1d \u2014 near-term discount-rate relief"
+          ],
+          "bear_case": [
+            "Nasdaq -0.41% 1m vs S&P +0.81% \u2014 tech underperforming, sector headwind",
+            "10y yield +1.7% 1m \u2014 headwind for IT services valuations and enterprise capex",
+            "Dollar index +0.95% 1m \u2014 translation headwind given IBM's international revenue"
+          ],
+          "key_evidence": {
+            "sector": "Technology / Information Technology Services",
+            "vix": 15.67,
+            "ten_year_yield_change_1m_pct": 1.7,
+            "dollar_index_change_1m_pct": 0.95
+          },
+          "lean": "neutral",
+          "conviction": 0.35,
+          "confidence": "medium",
+          "one_line": "Low-VIX risk-on tape helps, but a month of Nasdaq underperformance, rising yields, and a firmer dollar offset it for IBM."
+        }
+      ]
+    }
+  ]
+}
