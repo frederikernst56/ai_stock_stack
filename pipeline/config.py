@@ -35,6 +35,23 @@ MIN_PRICE_CHANGE_PCT = 2.5  # percent
 # Widened from 1.5 → 1.3 for broader weekly coverage.
 MIN_VOLUME_SPIKE_RATIO = 1.3  # day volume / 3-month average daily volume
 
+# --- Promise ranking ---
+
+# Passers are ranked by a composite "promise score" so that when the debate cap
+# (DEBATE_MAX_CANDIDATES) trims the field, the strongest setups survive rather
+# than an arbitrary volume-spike tiebreak. Each factor is normalized to a
+# rank-percentile across the passing set (robust to outliers like a 30x spike),
+# then blended with these weights (must sum to 1.0):
+#   volume_spike  — unusual activity, the screener's core catalyst signal
+#   price_move    — magnitude of the move (|% change|)
+#   corroboration — appearing in multiple screens at once (e.g. day_gainers +
+#                   most_actives + most_shorted) is a stronger, multi-lens signal
+PROMISE_WEIGHTS = {
+    "volume_spike": 0.5,
+    "price_move": 0.3,
+    "corroboration": 0.2,
+}
+
 # --- Output ---
 
 SCREENER_OUTPUT_DIR = "screener_output"

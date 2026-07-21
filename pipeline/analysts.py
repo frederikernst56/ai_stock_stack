@@ -382,8 +382,8 @@ def run_briefings(screener_dir=None, output_dir=None, max_candidates=None, symbo
             raise FileNotFoundError(f"No screener output found in {screener_dir}/")
         with open(source_file) as f:
             screener = json.load(f)
-        # Screener already sorts by volume-spike ratio, strongest first, so the
-        # cap (if it bites) keeps the most unusual movers.
+        # Screener already ranks by composite promise score, strongest first, so
+        # the cap (if it bites) keeps the most promising setups.
         symbols = [c["symbol"] for c in screener["candidates"][:max_candidates]]
 
     macro = macro_context()
