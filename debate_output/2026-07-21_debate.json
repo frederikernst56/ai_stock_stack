@@ -1,0 +1,489 @@
+{
+  "run_date": "2026-07-21",
+  "debates": [
+    {
+      "symbol": "CLBK",
+      "spot_price": 24.5,
+      "debated_at_utc": "2026-07-21T01:01:44.211546+00:00",
+      "agent_verdicts": [
+        {
+          "domain": "technical",
+          "symbol": "CLBK",
+          "bull_case": [
+            "Price at period high, 0.0% off high \u2014 decisive breakout",
+            "14.84%/19.14%/38.82% above SMA20/50/200 \u2014 strong uptrend all timeframes",
+            "MACD histogram +0.296 confirms bullish momentum",
+            "Recent-vs-base volume 6.43x \u2014 strong participation",
+            "Returns accelerating: +15.08% 5d, +23.49% 1m, +32.0% 3m"
+          ],
+          "bear_case": [
+            "RSI 83.1 deeply overbought",
+            "Stretched 38.82% above SMA200 \u2014 extreme extension",
+            "0.0% off period high, no pullback cushion",
+            "5d +15.08% unsustainable; 6.43x volume may be blow-off"
+          ],
+          "key_evidence": {
+            "rsi_14": 83.1,
+            "macd_histogram": 0.296,
+            "pct_vs_sma_50": 19.14,
+            "pct_vs_sma_200": 38.82,
+            "return_1m_pct": 23.49
+          },
+          "lean": "bull",
+          "conviction": 0.5,
+          "confidence": "medium",
+          "one_line": "Powerful volume-backed breakout to new highs, but RSI 83 and 39% extension above SMA200 flag high pullback risk."
+        },
+        {
+          "domain": "fundamentals",
+          "symbol": "CLBK",
+          "bull_case": [
+            "Earnings growth 48.0%, revenue growth 18.5%",
+            "Forward P/E 31.41 < trailing 44.55 implies earnings expansion",
+            "Operating margin 33.4%, profit margin 21.59%",
+            "Beta 0.25 defensive; $287.3M cash"
+          ],
+          "bear_case": [
+            "ROE 4.92% weak for a bank",
+            "ROA 0.52% thin",
+            "P/B 2.17x rich for sub-5% ROE",
+            "Trailing P/E 44.55 expensive",
+            "Debt/equity, current ratio, EV/EBITDA, FCF all missing"
+          ],
+          "key_evidence": {
+            "forward_pe": 31.41,
+            "profit_margin_pct": 21.59,
+            "return_on_equity_pct": 4.92,
+            "revenue_growth_pct": 18.5,
+            "debt_to_equity": null
+          },
+          "lean": "bear",
+          "conviction": 0.55,
+          "confidence": "medium",
+          "one_line": "Rich valuation (2.17x book, 44x trailing P/E) sits awkwardly on a weak 4.92% ROE for this regional bank."
+        },
+        {
+          "domain": "estimates",
+          "symbol": "CLBK",
+          "bull_case": [
+            "All three targets identical ($19) \u2014 stale thin-coverage estimate not refreshed since move to $24.50",
+            "No recommendation_mean/earnings date to confirm bearish read"
+          ],
+          "bear_case": [
+            "Implied upside -22.45%, spot well above $19 target",
+            "Coverage extremely thin at 2 analysts",
+            "Forward P/E 31.41x rich for a thrift",
+            "No recommendation data"
+          ],
+          "key_evidence": {
+            "implied_upside_pct": -22.45,
+            "recommendation_mean": null,
+            "num_analysts": 2,
+            "next_earnings_date": null
+          },
+          "lean": "bear",
+          "conviction": 0.35,
+          "confidence": "low",
+          "one_line": "Price is 22% above a stale, 2-analyst $19 target with no rating data - thin, unreliable bear signal."
+        },
+        {
+          "domain": "news",
+          "symbol": "CLBK",
+          "bull_case": [
+            "Completed mutual-to-stock second-step conversion + closed $580M Northfield Bancorp acquisition Jul 20; new shares trading Jul 21 \u2014 pro forma ~$18.0B assets, $12.5B deposits, 100+ branches",
+            "Conversion raised $1.67B via 167.2M shares at $10.00",
+            "Strong market reception (classic thrift-conversion pop)",
+            "Deal terms fixed, approvals secured in advance"
+          ],
+          "bear_case": [
+            "Simply Wall St flagged valuation stretched",
+            "StockStory skeptical 'questionable fundamentals' pieces",
+            "167.2M new shares \u2192 ~269.5M float; flipper selling can fade the pop",
+            "Integration risk absorbing Northfield",
+            "Day-one thrift trading mechanically unusual"
+          ],
+          "key_evidence": {
+            "primary_catalyst": "Completion of mutual-to-stock second-step conversion (167.2M new shares at $10, $1.67B raised) + closing of $580M Northfield Bancorp acquisition; new shares began trading July 21, 2026.",
+            "catalyst_type": "re-rating",
+            "searched": true
+          },
+          "lean": "bull",
+          "conviction": 0.55,
+          "confidence": "medium",
+          "one_line": "Thrift conversion + Northfield acquisition just closed, doubling scale \u2014 durable but day-one pop risks arb-driven fade."
+        },
+        {
+          "domain": "options",
+          "symbol": "CLBK",
+          "bull_case": [
+            "Put/call OI 0.34 (calls 6,819 vs puts 2,349) \u2014 skewed long",
+            "Light put hedging vs calls"
+          ],
+          "bear_case": [
+            "ATM IV 50.0% elevated for a small-cap bank",
+            "Straddle-implied move 8.98% large \u2014 event uncertainty",
+            "Low P/C can be speculative call buying"
+          ],
+          "key_evidence": {
+            "put_call_oi_ratio": 0.34,
+            "atm_implied_vol_pct": 50.0,
+            "implied_move_pct": 8.98
+          },
+          "lean": "bull",
+          "conviction": 0.35,
+          "confidence": "medium",
+          "one_line": "Calls dominate OI (0.34 P/C) but 50% IV and a 9% implied move flag real turbulence ahead."
+        },
+        {
+          "domain": "macro",
+          "symbol": "CLBK",
+          "bull_case": [
+            "10y 4.60% keeps curve away from inversion, aids NIM vs 2022-23",
+            "Dollar flat, non-factor for domestic thrift",
+            "Some see financials benefiting from asset repricing"
+          ],
+          "bear_case": [
+            "10y 4.60% + hawkish Fed pivot raises funding costs faster than loans reprice",
+            "VIX 18.65 (+7.93% 1m) risk-off; small regionals underperform, echoes 2023",
+            "S&P -0.39%, Nasdaq -2.52% 1m; oil +10.21%",
+            "Fed hiking risks short-end flattening \u2014 thrift headwind"
+          ],
+          "key_evidence": {
+            "sector": "Banks - Regional / Thrift",
+            "vix": 18.65,
+            "ten_year_yield_change_1m_pct": 1.97,
+            "dollar_index_change_1m_pct": -0.05
+          },
+          "lean": "bear",
+          "conviction": 0.45,
+          "confidence": "medium",
+          "one_line": "Hawkish Fed pivot, rising yields, and VIX uptick pressure funding costs for a small deposit-funded thrift like CLBK."
+        }
+      ]
+    },
+    {
+      "symbol": "ACHR",
+      "spot_price": 5.31,
+      "debated_at_utc": "2026-07-21T01:01:44.212355+00:00",
+      "agent_verdicts": [
+        {
+          "domain": "technical",
+          "symbol": "ACHR",
+          "bull_case": [
+            "5d +16.7% with RSI 53.9 \u2014 fresh momentum, not overbought",
+            "8.54% above SMA20 (4.89), reclaiming short-term trend after basing near period low 4.44",
+            "MACD histogram +0.045 \u2014 bullish crossover in progress"
+          ],
+          "bear_case": [
+            "Still 27.31% below SMA200 (7.3) and 5.08% below SMA50 \u2014 broader downtrend",
+            "3m -13.09%, 1m -0.93% \u2014 medium-term trend negative",
+            "Recent-vs-base volume 0.91 \u2014 rally on below-average volume",
+            "Down 61.07% from period high 13.64 \u2014 deep unresolved downtrend"
+          ],
+          "key_evidence": {
+            "rsi_14": 53.9,
+            "macd_histogram": 0.045,
+            "pct_vs_sma_50": -5.08,
+            "pct_vs_sma_200": -27.31,
+            "return_1m_pct": -0.93
+          },
+          "lean": "neutral",
+          "conviction": 0.35,
+          "confidence": "high",
+          "one_line": "Sharp 5d bounce (+16.7%) above SMA-20 lacks volume confirmation and remains deep below SMA-200 (-27%)."
+        },
+        {
+          "domain": "fundamentals",
+          "symbol": "ACHR",
+          "bull_case": [
+            "Total cash $1.78B, current ratio 18.06x \u2014 no near-term solvency risk",
+            "P/B 1.94 not unreasonable given cash",
+            "$4.05B cap reflects growth-stage eVTOL"
+          ],
+          "bear_case": [
+            "Operating margin -15,762.5%, profit margin 0.0% \u2014 pre-revenue",
+            "ROE -48.05%, ROA -29.59% \u2014 capital destruction",
+            "FCF -$417.2M \u2014 ~4-5yr runway absent dilution",
+            "P/S 2,132x, forward P/E -5.68, EV/EBITDA -2.92 \u2014 disconnected valuation",
+            "Debt/equity 5.86 high for negative-earnings name",
+            "Revenue/earnings growth null",
+            "Beta 3.19 extreme volatility"
+          ],
+          "key_evidence": {
+            "forward_pe": -5.68,
+            "profit_margin_pct": 0.0,
+            "return_on_equity_pct": -48.05,
+            "revenue_growth_pct": null,
+            "debt_to_equity": 5.86
+          },
+          "lean": "bear",
+          "conviction": 0.75,
+          "confidence": "medium",
+          "one_line": "Pre-revenue eVTOL burning $417M FCF/yr with -48% ROE and 2,132x P/S; cash cushion buys time, not fundamentals."
+        },
+        {
+          "domain": "estimates",
+          "symbol": "ACHR",
+          "bull_case": [
+            "Consensus 'buy', mean 1.89 across 9 analysts",
+            "Implied upside 97.74% ($10.50 target vs $5.31 spot)",
+            "High target $18.00 implies 3x+, on 9-analyst coverage"
+          ],
+          "bear_case": [
+            "Target range $4.50-$18.00 (4x spread) \u2014 deep disagreement",
+            "Low target $4.50 below spot \u2014 at least one sees overvalued",
+            "Forward P/E -5.68 unprofitable, no earnings basis; no next earnings date"
+          ],
+          "key_evidence": {
+            "implied_upside_pct": 97.74,
+            "recommendation_mean": 1.89,
+            "num_analysts": 9,
+            "next_earnings_date": null
+          },
+          "lean": "bull",
+          "conviction": 0.55,
+          "confidence": "medium",
+          "one_line": "Buy consensus and ~98% upside to $10.50 target, but 4x high-low spread and negative earnings temper conviction."
+        },
+        {
+          "domain": "news",
+          "symbol": "ACHR",
+          "bull_case": [
+            "Archer + Anduril unveiled 'Thunder' autonomous Group 5 VTOL defense aircraft at Farnborough, targeting a potential DoD program of record (2026-07-20)",
+            "Extends a capitalized partnership (Dec 2024 exclusive deal, $430M raise with Stellantis, United, Wellington)",
+            "Multiple full-scale surrogate test flights; maiden flight targeted 2027",
+            "Sector sympathy \u2014 Joby, EHang also rose"
+          ],
+          "bear_case": [
+            "No signed DoD contract/award \u2014 platform unveiling of pre-existing partnership; first flight 2027",
+            "Pre-revenue, history of dilutive raises",
+            "Low-priced high-beta retail-momentum name \u2014 +19.6% on an unveiling can mean-revert",
+            "Peers rallied in sympathy \u2014 partly thematic, not ACHR-specific"
+          ],
+          "key_evidence": {
+            "primary_catalyst": "Archer and Anduril unveiled the 'Thunder' autonomous hybrid VTOL defense aircraft, advancing their exclusive partnership toward a potential DoD program of record; stock +19.6%.",
+            "catalyst_type": "re-rating",
+            "searched": true
+          },
+          "lean": "bull",
+          "conviction": 0.55,
+          "confidence": "medium",
+          "one_line": "Real defense-platform unveiling with an existing capitalized partner, but no contract yet and prone to sentiment overshoot at this share price."
+        },
+        {
+          "domain": "options",
+          "symbol": "ACHR",
+          "bull_case": [
+            "Put/call OI 0.17 (3,362 puts vs 19,874 calls) \u2014 heavily call-skewed, light hedging",
+            "Call OI ~6x puts \u2014 speculative long tilt",
+            "If 97% IV/17.7% move reflects a positive catalyst, contained resolution compresses IV while price holds"
+          ],
+          "bear_case": [
+            "ATM IV 97.1% extremely elevated \u2014 turbulent window into 2026-08-07",
+            "17.7% implied move \u2014 large binary swing, cuts both ways",
+            "Heavy call OI can be retail chasing, unwinds violently on disappointment"
+          ],
+          "key_evidence": {
+            "put_call_oi_ratio": 0.17,
+            "atm_implied_vol_pct": 97.07,
+            "implied_move_pct": 17.7
+          },
+          "lean": "bull",
+          "conviction": 0.4,
+          "confidence": "medium",
+          "one_line": "Low 0.17 put/call ratio favors bulls, but 97% IV and 17.7% implied move flag serious two-way binary risk."
+        },
+        {
+          "domain": "macro",
+          "symbol": "ACHR",
+          "bull_case": [
+            "VIX 18.65 only moderately elevated \u2014 risk appetite not broken",
+            "S&P flat 1m (-0.39%) \u2014 no broad selloff forcing de-risking",
+            "Dollar flat \u2014 non-factor for domestic developer"
+          ],
+          "bear_case": [
+            "10y 4.60% (+1.97% 1m, +1.26% 1d) raises discount rate on distant cash flows \u2014 direct headwind for long-duration growth",
+            "Nasdaq -2.52% 1m vs flat S&P \u2014 rotation away from speculative tech",
+            "VIX +7.93% 1m \u2014 building risk aversion hits high-beta cash-burners, pressures financing terms",
+            "WTI +10.21% 1m raises aerospace input/logistics costs",
+            "Hawkish Fed pivot pressures capital-intensive growth reliant on external funding"
+          ],
+          "key_evidence": {
+            "sector": "Industrials - Aerospace & Defense (pre-revenue eVTOL/growth)",
+            "vix": 18.65,
+            "ten_year_yield_change_1m_pct": 1.97,
+            "dollar_index_change_1m_pct": -0.05
+          },
+          "lean": "bear",
+          "conviction": 0.6,
+          "confidence": "high",
+          "one_line": "Rising 10Y yield (4.60%, +1.97% 1m) and Nasdaq underperformance pressure pre-revenue, long-duration growth name ACHR."
+        }
+      ]
+    },
+    {
+      "symbol": "AMC",
+      "spot_price": 2.46,
+      "debated_at_utc": "2026-07-21T01:01:44.213016+00:00",
+      "agent_verdicts": [
+        {
+          "domain": "technical",
+          "symbol": "AMC",
+          "bull_case": [
+            "Price $2.46 above all SMAs: +22.48%/+30.64%/+35.47% vs SMA20/50/200",
+            "MACD histogram +0.026 \u2014 bullish momentum",
+            "RSI 63.3 elevated but below overbought",
+            "5d +31.55% on recent-vs-base volume 1.57x \u2014 expanding participation",
+            "3m +32.26% \u2014 broader trend intact"
+          ],
+          "bear_case": [
+            "1m -7.52% \u2014 was falling before this bounce; 5d spike may be reflex rally",
+            "Still -29.71% below period high $3.50, only modestly above period low $0.95",
+            "Stretched 35.47% above SMA200 \u2014 mean-reversion risk",
+            "RSI 63.3 + huge 5d spike raises pullback risk"
+          ],
+          "key_evidence": {
+            "rsi_14": 63.3,
+            "macd_histogram": 0.026,
+            "pct_vs_sma_50": 30.64,
+            "pct_vs_sma_200": 35.47,
+            "return_1m_pct": -7.52
+          },
+          "lean": "bull",
+          "conviction": 0.55,
+          "confidence": "medium",
+          "one_line": "Strong volume-backed 5d surge above all SMAs with bullish MACD, but stretched vs 200-SMA and still down 1m and off highs."
+        },
+        {
+          "domain": "fundamentals",
+          "symbol": "AMC",
+          "bull_case": [
+            "Revenue growth 21.2% \u2014 demand recovery",
+            "FCF positive ~$90.1M despite losses",
+            "P/S 0.44x cheap if margins normalize",
+            "Total cash $339.2M cushion"
+          ],
+          "bear_case": [
+            "Negative book value (P/B -0.77) \u2014 liabilities exceed assets",
+            "Forward P/E -15.38 \u2014 expected continued losses",
+            "Profit margin -10.88%, operating margin -4.31%",
+            "Current ratio 0.35 \u2014 serious liquidity strain",
+            "EV/EBITDA 19.97x rich for negative margins/equity",
+            "Debt/equity null (negative equity) \u2014 extreme leverage",
+            "ROE null, ROA thin 1.01%",
+            "Beta 2.28 high volatility"
+          ],
+          "key_evidence": {
+            "forward_pe": -15.38,
+            "profit_margin_pct": -10.88,
+            "return_on_equity_pct": null,
+            "revenue_growth_pct": 21.2,
+            "debt_to_equity": null
+          },
+          "lean": "bear",
+          "conviction": 0.75,
+          "confidence": "medium",
+          "one_line": "Revenue growth is real, but negative equity, sub-1 current ratio, and persistent losses dominate the picture."
+        },
+        {
+          "domain": "estimates",
+          "symbol": "AMC",
+          "bull_case": [
+            "Target high $3.00 implies ~22% upside",
+            "6 analysts still cover the name"
+          ],
+          "bear_case": [
+            "Spot $2.46 above mean target $2.24 \u2014 implied -8.88% downside",
+            "Recommendation mean 2.71 \u2014 hold/sell lean",
+            "Thin coverage (6 analysts) \u2014 fragile consensus",
+            "Target spread $1.20-$3.00 (2.5x) \u2014 high disagreement",
+            "Forward P/E -15.38, no earnings date"
+          ],
+          "key_evidence": {
+            "implied_upside_pct": -8.88,
+            "recommendation_mean": 2.71,
+            "num_analysts": 6,
+            "next_earnings_date": null
+          },
+          "lean": "bear",
+          "conviction": 0.55,
+          "confidence": "low",
+          "one_line": "Price above mean target (-8.88% implied), hold-leaning consensus from only 6 analysts with huge target dispersion."
+        },
+        {
+          "domain": "news",
+          "symbol": "AMC",
+          "bull_case": [
+            "Q2 2026 record revenue $1.6B (+14.2% YoY), beat $1.47B consensus",
+            "Adjusted EPS $0.14 vs -$0.06 expected; first-ever >$300M quarterly Adj EBITDA ($321.4M, +69.6% YoY)",
+            "Attendance growth: US +12%, Europe +18% YoY",
+            "Nolan's 'The Odyssey' incremental box-office tailwind",
+            "CEO pushed back on bearish narrative"
+          ],
+          "bear_case": [
+            "Still a GAAP net loss of $11.4M \u2014 profitability not clean",
+            "Heavy debt load, history of dilutive offerings \u2014 structural overhang",
+            "Slate-dependent \u2014 can reverse on weaker release calendar",
+            "+26.8% partly short-covering/momentum, can overshoot fundamentals"
+          ],
+          "key_evidence": {
+            "primary_catalyst": "Q2 2026 earnings: record $1.6B revenue (+14.2% YoY), record $321M Adj EBITDA, EPS beat ($0.14 vs -$0.06), attendance growth, strong slate ('The Odyssey')",
+            "catalyst_type": "re-rating",
+            "searched": true
+          },
+          "lean": "bull",
+          "conviction": 0.65,
+          "confidence": "high",
+          "one_line": "Genuine record-revenue earnings beat with attendance growth drives the pop, but debt overhang and slate-dependence temper durability."
+        },
+        {
+          "domain": "options",
+          "symbol": "AMC",
+          "bull_case": [
+            "Put/call OI 0.18 (calls 272,544 vs puts 47,732) \u2014 heavily upside-skewed",
+            "Light put hedging \u2014 not bracing for downside"
+          ],
+          "bear_case": [
+            "ATM IV 127.93% extreme \u2014 turbulent window into 2026-08-21",
+            "Straddle-implied move 29.67% \u2014 very large binary swing",
+            "At $2.46, low-priced high-vol name where extreme IV reflects structural instability (dilution, meme flows)"
+          ],
+          "key_evidence": {
+            "put_call_oi_ratio": 0.18,
+            "atm_implied_vol_pct": 127.93,
+            "implied_move_pct": 29.67
+          },
+          "lean": "bull",
+          "conviction": 0.35,
+          "confidence": "medium",
+          "one_line": "Calls dominate OI (0.18 P/C) but 128% IV and 29.7% implied move flag a volatile, high-risk two-way setup."
+        },
+        {
+          "domain": "macro",
+          "symbol": "AMC",
+          "bull_case": [
+            "VIX 18.65 sub-20 \u2014 no panic liquidation",
+            "S&P -0.39% 1m \u2014 tape hasn't cracked",
+            "Dollar flat \u2014 no FX headwind (domestic)"
+          ],
+          "bear_case": [
+            "10y 4.60% (+1.97% 1m) raises cost of capital/refi risk for a heavy-debt, negative-FCF name",
+            "VIX +7.93% 1m, Nasdaq -2.52% 1m \u2014 fading appetite in the retail/meme cohort AMC depends on",
+            "WTI +10.21% 1m squeezes discretionary movie-going spend",
+            "Flat-to-down indices \u2014 no risk-on tailwind for low-quality leverage"
+          ],
+          "key_evidence": {
+            "sector": "Communication Services - Entertainment (theaters)",
+            "vix": 18.65,
+            "ten_year_yield_change_1m_pct": 1.97,
+            "dollar_index_change_1m_pct": -0.05
+          },
+          "lean": "bear",
+          "conviction": 0.55,
+          "confidence": "medium",
+          "one_line": "Rising 10yr yields and cooling risk appetite (VIX +8% 1m, Nasdaq -2.5% 1m) pressure AMC's leveraged, speculative profile."
+        }
+      ]
+    }
+  ]
+}

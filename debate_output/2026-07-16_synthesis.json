@@ -1,0 +1,94 @@
+{
+  "run_date": "2026-07-16",
+  "generated_at_utc": "2026-07-21T00:52:39.207272+00:00",
+  "source_debate_file": "debate_output/2026-07-16_debate.json",
+  "confidence_weights": {
+    "high": 1.0,
+    "medium": 0.6,
+    "low": 0.3
+  },
+  "agreement_exponent": 0.0,
+  "ranking_metric": "agreement_weighted_score",
+  "ticker_count": 1,
+  "rankings": [
+    {
+      "symbol": "IBM",
+      "spot_price": 211.2,
+      "direction": "bear",
+      "directional_score": -0.2631,
+      "agreement": 0.619,
+      "agreement_exponent": 0.0,
+      "agreement_weighted_score": -0.2631,
+      "lean_counts": {
+        "bull": 1,
+        "bear": 4,
+        "neutral": 1
+      },
+      "dissenters": [
+        {
+          "domain": "fundamentals",
+          "lean": "bull",
+          "conviction": 0.55,
+          "one_line": "Reasonable forward valuation and strong FCF outweigh high leverage and sub-1 current ratio."
+        }
+      ],
+      "contributions": [
+        {
+          "domain": "technical",
+          "lean": "bear",
+          "conviction": 0.65,
+          "confidence": "high",
+          "weight": 1.0,
+          "contribution": -0.65,
+          "one_line": "New period low on 2.19x volume and a -22% MACD-confirmed downtrend outweigh a merely oversold RSI."
+        },
+        {
+          "domain": "fundamentals",
+          "lean": "bull",
+          "conviction": 0.55,
+          "confidence": "high",
+          "weight": 1.0,
+          "contribution": 0.55,
+          "one_line": "Reasonable forward valuation and strong FCF outweigh high leverage and sub-1 current ratio."
+        },
+        {
+          "domain": "estimates",
+          "lean": "bear",
+          "conviction": 0.55,
+          "confidence": "low",
+          "weight": 0.3,
+          "contribution": -0.165,
+          "one_line": "Headline 40% upside looks stale post-warning; wide $195 target spread and pre-warning targets undercut the buy consensus."
+        },
+        {
+          "domain": "news",
+          "lean": "bear",
+          "conviction": 0.75,
+          "confidence": "high",
+          "weight": 1.0,
+          "contribution": -0.75,
+          "one_line": "IBM's 25% crash follows a real earnings/guidance miss with structural causes, not just sentiment \u2014 bearish into the 7/22 print."
+        },
+        {
+          "domain": "options",
+          "lean": "bear",
+          "conviction": 0.3,
+          "confidence": "low",
+          "weight": 0.3,
+          "contribution": -0.09,
+          "one_line": "78% IV and a 3.24% implied move hint at event risk, but zero call OI makes the ratio undefined and the read unreliable."
+        },
+        {
+          "domain": "macro",
+          "lean": "neutral",
+          "conviction": 0.35,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": 0.0,
+          "one_line": "Low-VIX risk-on tape helps, but a month of Nasdaq underperformance, rising yields, and a firmer dollar offset it for IBM."
+        }
+      ],
+      "rank": 1
+    }
+  ]
+}

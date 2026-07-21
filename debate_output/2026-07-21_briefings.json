@@ -1,0 +1,577 @@
+{
+  "run_date": "2026-07-21",
+  "generated_at_utc": "2026-07-21T00:55:44.023927+00:00",
+  "source_screener_file": null,
+  "macro_context": {
+    "sp500": {
+      "available": true,
+      "last": 7443.28,
+      "change_1d_pct": -0.19,
+      "change_1m_pct": -0.39
+    },
+    "nasdaq": {
+      "available": true,
+      "last": 25508.07,
+      "change_1d_pct": -0.05,
+      "change_1m_pct": -2.52
+    },
+    "vix": {
+      "available": true,
+      "last": 18.65,
+      "change_1d_pct": -0.64,
+      "change_1m_pct": 7.93
+    },
+    "ten_year_yield": {
+      "available": true,
+      "last": 4.6,
+      "change_1d_pct": 1.26,
+      "change_1m_pct": 1.97
+    },
+    "dollar_index": {
+      "available": true,
+      "last": 100.97,
+      "change_1d_pct": 0.22,
+      "change_1m_pct": -0.05
+    },
+    "oil_wti": {
+      "available": true,
+      "last": 82.46,
+      "change_1d_pct": -0.04,
+      "change_1m_pct": 10.21
+    }
+  },
+  "briefing_count": 3,
+  "briefings": [
+    {
+      "symbol": "CLBK",
+      "name": "Columbia Financial, Inc.",
+      "spot_price": 24.5,
+      "briefed_at_utc": "2026-07-21T00:55:36.067044+00:00",
+      "domains": {
+        "technical": {
+          "available": true,
+          "last_close": 24.5,
+          "rsi_14": 83.1,
+          "macd": {
+            "macd": 0.79,
+            "signal": 0.495,
+            "histogram": 0.296
+          },
+          "sma_20": 21.33,
+          "pct_vs_sma_20": 14.84,
+          "sma_50": 20.56,
+          "pct_vs_sma_50": 19.14,
+          "sma_200": 17.65,
+          "pct_vs_sma_200": 38.82,
+          "return_5d_pct": 15.08,
+          "return_1m_pct": 23.49,
+          "return_3m_pct": 32.0,
+          "period_high": 24.5,
+          "period_low": 13.73,
+          "pct_off_period_high": 0.0,
+          "recent_vs_base_volume": 6.43,
+          "history_period": "1y"
+        },
+        "fundamentals": {
+          "available": true,
+          "valuation": {
+            "trailing_pe": 44.55,
+            "forward_pe": 31.41,
+            "price_to_book": 2.17,
+            "price_to_sales": 9.84,
+            "ev_to_ebitda": null
+          },
+          "profitability": {
+            "profit_margin_pct": 21.59,
+            "operating_margin_pct": 33.4,
+            "return_on_equity_pct": 4.92,
+            "return_on_assets_pct": 0.52
+          },
+          "growth": {
+            "revenue_growth_pct": 18.5,
+            "earnings_growth_pct": 48.0
+          },
+          "health": {
+            "debt_to_equity": null,
+            "current_ratio": null,
+            "total_cash": 287296992,
+            "free_cashflow": null
+          },
+          "profile": {
+            "sector": "Financial Services",
+            "industry": "Banks - Regional",
+            "market_cap": 2549426688,
+            "beta": 0.25
+          }
+        },
+        "estimates": {
+          "available": true,
+          "recommendation_key": "none",
+          "recommendation_mean": null,
+          "num_analysts": 2,
+          "target_mean": 19.0,
+          "target_high": 19.0,
+          "target_low": 19.0,
+          "implied_upside_pct": -22.45,
+          "forward_pe": 31.41,
+          "next_earnings_date": null
+        },
+        "news": {
+          "available": true,
+          "headline_count": 8,
+          "headlines": [
+            {
+              "title": "Columbia Financial, Washington Trust Bancorp, and Old Second Bancorp Shares Skyrocket, What You Need To Know",
+              "publisher": "StockStory",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/columbia-financial-washington-trust-bancorp-220122171.html",
+              "published": "2026-07-16T22:01:22Z"
+            },
+            {
+              "title": "3 Growth Stocks with Questionable Fundamentals",
+              "publisher": "StockStory",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-questionable-fundamentals-132517783.html",
+              "published": "2026-07-15T13:25:17Z"
+            },
+            {
+              "title": "2 Stocks Under $50 with Exciting Potential and 1 We Ignore",
+              "publisher": "StockStory",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/2-stocks-under-50-exciting-122320801.html",
+              "published": "2026-07-10T12:23:20Z"
+            },
+            {
+              "title": "3 Unpopular Stocks with Open Questions",
+              "publisher": "StockStory",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/3-unpopular-stocks-open-questions-125815881.html",
+              "published": "2026-06-29T12:58:15Z"
+            },
+            {
+              "title": "Columbia Financial (CLBK) Stock Valuation Looks Stretched After Strong Recent Returns",
+              "publisher": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/columbia-financial-clbk-stock-valuation-090636569.html",
+              "published": "2026-06-15T09:06:36Z"
+            },
+            {
+              "title": "2 Momentum  Stocks Worth Investigating and 1 Facing Challenges",
+              "publisher": "StockStory",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/2-momentum-stocks-worth-investigating-133320033.html",
+              "published": "2026-06-12T13:33:20Z"
+            },
+            {
+              "title": "Columbia Financial (CLBK): Buy, Sell, or Hold Post Q1 Earnings?",
+              "publisher": "StockStory",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/columbia-financial-clbk-buy-sell-151014680.html",
+              "published": "2026-06-09T15:10:14Z"
+            },
+            {
+              "title": "Thrifts & Mortgage Finance Stocks Q1 Results: Benchmarking Columbia Financial (NASDAQ:CLBK)",
+              "publisher": "StockStory",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/thrifts-mortgage-finance-stocks-q1-213533719.html",
+              "published": "2026-06-03T21:35:33Z"
+            }
+          ]
+        },
+        "options": {
+          "available": true,
+          "expiry": "2026-08-21",
+          "call_open_interest": 6819,
+          "put_open_interest": 2349,
+          "put_call_oi_ratio": 0.34,
+          "atm_implied_vol_pct": 50.0,
+          "implied_move_pct": 8.98
+        },
+        "macro": {
+          "sp500": {
+            "available": true,
+            "last": 7443.28,
+            "change_1d_pct": -0.19,
+            "change_1m_pct": -0.39
+          },
+          "nasdaq": {
+            "available": true,
+            "last": 25508.07,
+            "change_1d_pct": -0.05,
+            "change_1m_pct": -2.52
+          },
+          "vix": {
+            "available": true,
+            "last": 18.65,
+            "change_1d_pct": -0.64,
+            "change_1m_pct": 7.93
+          },
+          "ten_year_yield": {
+            "available": true,
+            "last": 4.6,
+            "change_1d_pct": 1.26,
+            "change_1m_pct": 1.97
+          },
+          "dollar_index": {
+            "available": true,
+            "last": 100.97,
+            "change_1d_pct": 0.22,
+            "change_1m_pct": -0.05
+          },
+          "oil_wti": {
+            "available": true,
+            "last": 82.46,
+            "change_1d_pct": -0.04,
+            "change_1m_pct": 10.21
+          }
+        }
+      }
+    },
+    {
+      "symbol": "ACHR",
+      "name": "Archer Aviation Inc.",
+      "spot_price": 5.31,
+      "briefed_at_utc": "2026-07-21T00:55:38.971249+00:00",
+      "domains": {
+        "technical": {
+          "available": true,
+          "last_close": 5.31,
+          "rsi_14": 53.9,
+          "macd": {
+            "macd": -0.211,
+            "signal": -0.256,
+            "histogram": 0.045
+          },
+          "sma_20": 4.89,
+          "pct_vs_sma_20": 8.54,
+          "sma_50": 5.59,
+          "pct_vs_sma_50": -5.08,
+          "sma_200": 7.3,
+          "pct_vs_sma_200": -27.31,
+          "return_5d_pct": 16.7,
+          "return_1m_pct": -0.93,
+          "return_3m_pct": -13.09,
+          "period_high": 13.64,
+          "period_low": 4.44,
+          "pct_off_period_high": -61.07,
+          "recent_vs_base_volume": 0.91,
+          "history_period": "1y"
+        },
+        "fundamentals": {
+          "available": true,
+          "valuation": {
+            "trailing_pe": null,
+            "forward_pe": -5.68,
+            "price_to_book": 1.94,
+            "price_to_sales": 2132.01,
+            "ev_to_ebitda": -2.92
+          },
+          "profitability": {
+            "profit_margin_pct": 0.0,
+            "operating_margin_pct": -15762.5,
+            "return_on_equity_pct": -48.05,
+            "return_on_assets_pct": -29.59
+          },
+          "growth": {
+            "revenue_growth_pct": null,
+            "earnings_growth_pct": null
+          },
+          "health": {
+            "debt_to_equity": 5.86,
+            "current_ratio": 18.06,
+            "total_cash": 1775900032,
+            "free_cashflow": -417224992
+          },
+          "profile": {
+            "sector": "Industrials",
+            "industry": "Aerospace & Defense",
+            "market_cap": 4050812672,
+            "beta": 3.19
+          }
+        },
+        "estimates": {
+          "available": true,
+          "recommendation_key": "buy",
+          "recommendation_mean": 1.89,
+          "num_analysts": 9,
+          "target_mean": 10.5,
+          "target_high": 18.0,
+          "target_low": 4.5,
+          "implied_upside_pct": 97.74,
+          "forward_pe": -5.68,
+          "next_earnings_date": null
+        },
+        "news": {
+          "available": true,
+          "headline_count": 8,
+          "headlines": [
+            {
+              "title": "Stock Market Today, July 20: Archer Aviation Surges 20% on Thunder VTOL Platform Unveiling with Anduril",
+              "publisher": "Motley Fool",
+              "url": "https://www.fool.com/coverage/stock-market-today/2026/07/20/stock-market-today-july-20-archer-aviation-surges-20-on-thunder-vtol-platform-unveiling-with-anduril/",
+              "published": "2026-07-20T21:46:22Z"
+            },
+            {
+              "title": "Archer Aviation (ACHR) Unveils Defense Aircraft Amid Geopolitical Tensions, Takes Off 19.6%",
+              "publisher": "Insider Monkey",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/archer-aviation-achr-unveils-defense-213227572.html",
+              "published": "2026-07-20T21:32:27Z"
+            },
+            {
+              "title": "Archer Aviation Stock Soars 20% on New Defense Deal",
+              "publisher": "Barrons.com",
+              "url": "https://www.barrons.com/articles/archer-aviation-stock-anduril-bd231f33?siteid=yhoof2&yptr=yahoo",
+              "published": "2026-07-20T20:27:00Z"
+            },
+            {
+              "title": "Archer Aviation Stock Takes Off on New AI Aircraft Platform Launch",
+              "publisher": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/ai/articles/archer-aviation-stock-takes-off-193048521.html",
+              "published": "2026-07-20T19:30:48Z"
+            },
+            {
+              "title": "Archer and Anduril Unveil Thunder Attack Rotorcraft",
+              "publisher": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/articles/archer-anduril-unveil-thunder-attack-184550301.html",
+              "published": "2026-07-20T18:45:50Z"
+            },
+            {
+              "title": "Why Archer Aviation Stock Took Flight on Monday",
+              "publisher": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/07/20/why-archer-aviation-stock-took-flight-on-monday/",
+              "published": "2026-07-20T17:13:36Z"
+            },
+            {
+              "title": "ACHR Stock Alert: What to Know as Archer Aviation Unveils Anduril Partnership",
+              "publisher": "Barchart",
+              "url": "https://www.barchart.com/story/news/3367458/achr-stock-alert-what-to-know-as-archer-aviation-unveils-anduril-partnership",
+              "published": "2026-07-20T16:35:34Z"
+            },
+            {
+              "title": "Archer Aviation Flies 14% Higher as Anduril Team-Up Unveils Autonomous VTOL; Joby and EHang Get a Lift, Too",
+              "publisher": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/07/20/archer-aviation-flies-14-higher-as-anduril-team-up-unveils-autonomous-vtol-joby-and-ehang-get-a-lift-too/",
+              "published": "2026-07-20T15:40:47Z"
+            }
+          ]
+        },
+        "options": {
+          "available": true,
+          "expiry": "2026-08-07",
+          "call_open_interest": 19874,
+          "put_open_interest": 3362,
+          "put_call_oi_ratio": 0.17,
+          "atm_implied_vol_pct": 97.07,
+          "implied_move_pct": 17.7
+        },
+        "macro": {
+          "sp500": {
+            "available": true,
+            "last": 7443.28,
+            "change_1d_pct": -0.19,
+            "change_1m_pct": -0.39
+          },
+          "nasdaq": {
+            "available": true,
+            "last": 25508.07,
+            "change_1d_pct": -0.05,
+            "change_1m_pct": -2.52
+          },
+          "vix": {
+            "available": true,
+            "last": 18.65,
+            "change_1d_pct": -0.64,
+            "change_1m_pct": 7.93
+          },
+          "ten_year_yield": {
+            "available": true,
+            "last": 4.6,
+            "change_1d_pct": 1.26,
+            "change_1m_pct": 1.97
+          },
+          "dollar_index": {
+            "available": true,
+            "last": 100.97,
+            "change_1d_pct": 0.22,
+            "change_1m_pct": -0.05
+          },
+          "oil_wti": {
+            "available": true,
+            "last": 82.46,
+            "change_1d_pct": -0.04,
+            "change_1m_pct": 10.21
+          }
+        }
+      }
+    },
+    {
+      "symbol": "AMC",
+      "name": "AMC Entertainment Holdings, Inc.",
+      "spot_price": 2.46,
+      "briefed_at_utc": "2026-07-21T00:55:41.691961+00:00",
+      "domains": {
+        "technical": {
+          "available": true,
+          "last_close": 2.46,
+          "rsi_14": 63.3,
+          "macd": {
+            "macd": 0.039,
+            "signal": 0.013,
+            "histogram": 0.026
+          },
+          "sma_20": 2.01,
+          "pct_vs_sma_20": 22.48,
+          "sma_50": 1.88,
+          "pct_vs_sma_50": 30.64,
+          "sma_200": 1.82,
+          "pct_vs_sma_200": 35.47,
+          "return_5d_pct": 31.55,
+          "return_1m_pct": -7.52,
+          "return_3m_pct": 32.26,
+          "period_high": 3.5,
+          "period_low": 0.95,
+          "pct_off_period_high": -29.71,
+          "recent_vs_base_volume": 1.57,
+          "history_period": "1y"
+        },
+        "fundamentals": {
+          "available": true,
+          "valuation": {
+            "trailing_pe": null,
+            "forward_pe": -15.38,
+            "price_to_book": -0.77,
+            "price_to_sales": 0.44,
+            "ev_to_ebitda": 19.97
+          },
+          "profitability": {
+            "profit_margin_pct": -10.88,
+            "operating_margin_pct": -4.31,
+            "return_on_equity_pct": null,
+            "return_on_assets_pct": 1.01
+          },
+          "growth": {
+            "revenue_growth_pct": 21.2,
+            "earnings_growth_pct": null
+          },
+          "health": {
+            "debt_to_equity": null,
+            "current_ratio": 0.35,
+            "total_cash": 339200000,
+            "free_cashflow": 90087504
+          },
+          "profile": {
+            "sector": "Communication Services",
+            "industry": "Entertainment",
+            "market_cap": 2195807488,
+            "beta": 2.28
+          }
+        },
+        "estimates": {
+          "available": true,
+          "recommendation_key": "hold",
+          "recommendation_mean": 2.71,
+          "num_analysts": 6,
+          "target_mean": 2.24,
+          "target_high": 3.0,
+          "target_low": 1.2,
+          "implied_upside_pct": -8.88,
+          "forward_pe": -15.38,
+          "next_earnings_date": null
+        },
+        "news": {
+          "available": true,
+          "headline_count": 8,
+          "headlines": [
+            {
+              "title": "AMC stock surges after record revenue as CEO pushes back against 'prognosticators of doom'",
+              "publisher": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/article/amc-stock-surges-after-record-revenue-as-ceo-pushes-back-against-prognosticators-of-doom-161603110.html",
+              "published": "2026-07-20T16:16:03Z"
+            },
+            {
+              "title": "Stock Market Today, July 20: AMC Surges on Earnings Beat and Record Revenue",
+              "publisher": "Motley Fool",
+              "url": "https://www.fool.com/coverage/stock-market-today/2026/07/20/stock-market-today-july-20-amc-surges-on-earnings-beat-and-record-revenue/",
+              "published": "2026-07-20T21:19:55Z"
+            },
+            {
+              "title": "AMC Entertainment Holdings Inc (AMC) Q2 2026 Earnings Call Highlights: Record Revenue and ...",
+              "publisher": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/amc-entertainment-holdings-inc-amc-210025596.html",
+              "published": "2026-07-20T21:00:25Z"
+            },
+            {
+              "title": "Stocks to Watch Recap: Alibaba, AMC, Domino\u2019s, Paramount",
+              "publisher": "The Wall Street Journal",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-20-2026/card/stocks-to-watch-alibaba-ryanair-amc-entertainment-micron-Y2vsWyUq5FXtaxnM7yVV?siteid=yhoof2&yptr=yahoo",
+              "published": "2026-07-20T20:30:39Z"
+            },
+            {
+              "title": "Micron, Lumentum, Sweetgreen, AMC, Domino\u2019s, and More Stocks That Explain Today\u2019s Market",
+              "publisher": "Barrons.com",
+              "url": "https://www.barrons.com/articles/stock-movers-76b698df?siteid=yhoof2&yptr=yahoo",
+              "published": "2026-07-20T20:27:00Z"
+            },
+            {
+              "title": "Dow Drops 305 Points as Apple Falls From Highs: Stock Market Today",
+              "publisher": "Kiplinger",
+              "url": "https://www.kiplinger.com/investing/stocks/dow-drops-305-points-as-apple-falls-from-highs-stock-market-today",
+              "published": "2026-07-20T20:11:14Z"
+            },
+            {
+              "title": "AMC Stock Soars 24% After Earnings. \u2018The Odyssey\u2019 Is Helping, Too.",
+              "publisher": "Barrons.com",
+              "url": "https://www.barrons.com/articles/amc-earnings-stock-price-d807351c?siteid=yhoof2&yptr=yahoo",
+              "published": "2026-07-20T18:49:00Z"
+            },
+            {
+              "title": "Top Midday Gainers",
+              "publisher": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-gainers-173933851.html",
+              "published": "2026-07-20T17:39:33Z"
+            }
+          ]
+        },
+        "options": {
+          "available": true,
+          "expiry": "2026-08-21",
+          "call_open_interest": 272544,
+          "put_open_interest": 47732,
+          "put_call_oi_ratio": 0.18,
+          "atm_implied_vol_pct": 127.93,
+          "implied_move_pct": 29.67
+        },
+        "macro": {
+          "sp500": {
+            "available": true,
+            "last": 7443.28,
+            "change_1d_pct": -0.19,
+            "change_1m_pct": -0.39
+          },
+          "nasdaq": {
+            "available": true,
+            "last": 25508.07,
+            "change_1d_pct": -0.05,
+            "change_1m_pct": -2.52
+          },
+          "vix": {
+            "available": true,
+            "last": 18.65,
+            "change_1d_pct": -0.64,
+            "change_1m_pct": 7.93
+          },
+          "ten_year_yield": {
+            "available": true,
+            "last": 4.6,
+            "change_1d_pct": 1.26,
+            "change_1m_pct": 1.97
+          },
+          "dollar_index": {
+            "available": true,
+            "last": 100.97,
+            "change_1d_pct": 0.22,
+            "change_1m_pct": -0.05
+          },
+          "oil_wti": {
+            "available": true,
+            "last": 82.46,
+            "change_1d_pct": -0.04,
+            "change_1m_pct": 10.21
+          }
+        }
+      }
+    }
+  ]
+}

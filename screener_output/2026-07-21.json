@@ -1,0 +1,538 @@
+{
+  "run_date": "2026-07-21",
+  "generated_at_utc": "2026-07-21T00:54:30.538535+00:00",
+  "config": {
+    "screens": [
+      "day_gainers",
+      "most_actives"
+    ],
+    "min_market_cap": 300000000,
+    "min_price_change_pct": 3.0,
+    "min_volume_spike_ratio": 1.5
+  },
+  "universe_pulled": {
+    "day_gainers": 93,
+    "most_actives": 100,
+    "total_unique": 177
+  },
+  "candidates_passed": 16,
+  "candidates": [
+    {
+      "symbol": "CLBK",
+      "name": "Columbia Financial, Inc.",
+      "price": 24.5,
+      "change_percent": 4.61144,
+      "day_volume": 16670032,
+      "avg_volume_3m": 529226,
+      "market_cap": 2549426688,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 31.5,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2549426688,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 4.61144,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 31.5,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "LXP",
+      "name": "LXP Industrial Trust",
+      "price": 60.85,
+      "change_percent": 3.99932,
+      "day_volume": 3191758,
+      "avg_volume_3m": 472867,
+      "market_cap": 3587260160,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 6.75,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 3587260160,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 3.99932,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 6.75,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "AMC",
+      "name": "AMC Entertainment Holdings, Inc.",
+      "price": 2.46,
+      "change_percent": 26.8041,
+      "day_volume": 181884068,
+      "avg_volume_3m": 38876095,
+      "market_cap": 2195807488,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "most_actives"
+      ],
+      "volume_spike_ratio": 4.68,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2195807488,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 26.8041,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 4.68,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "HDB",
+      "name": "HDFC Bank Limited",
+      "price": 23.6,
+      "change_percent": -10.5383,
+      "day_volume": 23104543,
+      "avg_volume_3m": 8416144,
+      "market_cap": 121156173824,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "most_actives"
+      ],
+      "volume_spike_ratio": 2.75,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 121156173824,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -10.5383,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 2.75,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "ONDS",
+      "name": "Ondas Inc.",
+      "price": 6.87,
+      "change_percent": 5.28735,
+      "day_volume": 186157416,
+      "avg_volume_3m": 76383698,
+      "market_cap": 3914791168,
+      "sector": null,
+      "exchange": "NasdaqCM",
+      "source_screens": [
+        "day_gainers",
+        "most_actives"
+      ],
+      "volume_spike_ratio": 2.44,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 3914791168,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 5.28735,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 2.44,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "ACHR",
+      "name": "Archer Aviation Inc.",
+      "price": 5.31,
+      "change_percent": 19.5946,
+      "day_volume": 95667839,
+      "avg_volume_3m": 42036345,
+      "market_cap": 4050812672,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_gainers",
+        "most_actives"
+      ],
+      "volume_spike_ratio": 2.28,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 4050812672,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 19.5946,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 2.28,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "WBD",
+      "name": "Warner Bros. Discovery, Inc.",
+      "price": 25.86,
+      "change_percent": -3.75884,
+      "day_volume": 44572296,
+      "avg_volume_3m": 20277819,
+      "market_cap": 64834560000,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "most_actives"
+      ],
+      "volume_spike_ratio": 2.2,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 64834560000,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -3.75884,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 2.2,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "BLBD",
+      "name": "Blue Bird Corporation",
+      "price": 81.5,
+      "change_percent": 4.0337,
+      "day_volume": 995436,
+      "avg_volume_3m": 455852,
+      "market_cap": 2579196928,
+      "sector": null,
+      "exchange": "NasdaqGM",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 2.18,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2579196928,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 4.0337,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 2.18,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "JOBY",
+      "name": "Joby Aviation, Inc.",
+      "price": 7.47,
+      "change_percent": 3.3195,
+      "day_volume": 76805958,
+      "avg_volume_3m": 38127054,
+      "market_cap": 7347812352,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_gainers",
+        "most_actives"
+      ],
+      "volume_spike_ratio": 2.01,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 7347812352,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 3.3195,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 2.01,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "IREN",
+      "name": "IREN Limited",
+      "price": 40.2,
+      "change_percent": 19.5717,
+      "day_volume": 89872144,
+      "avg_volume_3m": 46823588,
+      "market_cap": 14366623744,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_gainers",
+        "most_actives"
+      ],
+      "volume_spike_ratio": 1.92,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 14366623744,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 19.5717,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.92,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "HOG",
+      "name": "Harley-Davidson, Inc.",
+      "price": 27.82,
+      "change_percent": 4.66516,
+      "day_volume": 5270299,
+      "avg_volume_3m": 2788052,
+      "market_cap": 2928564224,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.89,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2928564224,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 4.66516,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.89,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "NUVB",
+      "name": "Nuvation Bio Inc.",
+      "price": 6.26,
+      "change_percent": 7.93104,
+      "day_volume": 11154480,
+      "avg_volume_3m": 6102901,
+      "market_cap": 2179744512,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.83,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2179744512,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 7.93104,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.83,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "CIFR",
+      "name": "Cipher Digital Inc.",
+      "price": 20.54,
+      "change_percent": 16.9704,
+      "day_volume": 40566454,
+      "avg_volume_3m": 24969968,
+      "market_cap": 8401870848,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_gainers",
+        "most_actives"
+      ],
+      "volume_spike_ratio": 1.62,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 8401870848,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 16.9704,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.62,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "HUT",
+      "name": "Hut 8 Corp.",
+      "price": 100.93,
+      "change_percent": 10.3663,
+      "day_volume": 7254160,
+      "avg_volume_3m": 4534211,
+      "market_cap": 11364123648,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.6,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 11364123648,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 10.3663,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.6,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "TTAN",
+      "name": "ServiceTitan, Inc.",
+      "price": 79.46,
+      "change_percent": 4.55263,
+      "day_volume": 2372143,
+      "avg_volume_3m": 1549909,
+      "market_cap": 7580291072,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.53,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 7580291072,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 4.55263,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.53,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "SGHC",
+      "name": "Super Group (SGHC) Limited",
+      "price": 15.58,
+      "change_percent": 5.77054,
+      "day_volume": 5366740,
+      "avg_volume_3m": 3551803,
+      "market_cap": 7915836416,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.51,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 7915836416,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 5.77054,
+          "min": 3.0,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.51,
+          "min": 1.5,
+          "passed": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "run_date": "2026-07-21",
+  "generated_at_utc": "2026-07-21T01:01:50.741224+00:00",
+  "source_debate_file": "debate_output/2026-07-21_debate.json",
+  "confidence_weights": {
+    "high": 1.0,
+    "medium": 0.6,
+    "low": 0.3
+  },
+  "agreement_exponent": 1.0,
+  "ranking_metric": "agreement_weighted_score",
+  "ticker_count": 3,
+  "rankings": [
+    {
+      "symbol": "AMC",
+      "spot_price": 2.46,
+      "direction": "bull",
+      "directional_score": 0.0662,
+      "agreement": 0.5946,
+      "agreement_exponent": 1.0,
+      "agreement_weighted_score": 0.0394,
+      "lean_counts": {
+        "bull": 3,
+        "bear": 3,
+        "neutral": 0
+      },
+      "dissenters": [
+        {
+          "domain": "fundamentals",
+          "lean": "bear",
+          "conviction": 0.75,
+          "one_line": "Revenue growth is real, but negative equity, sub-1 current ratio, and persistent losses dominate the picture."
+        },
+        {
+          "domain": "estimates",
+          "lean": "bear",
+          "conviction": 0.55,
+          "one_line": "Price above mean target (-8.88% implied), hold-leaning consensus from only 6 analysts with huge target dispersion."
+        },
+        {
+          "domain": "macro",
+          "lean": "bear",
+          "conviction": 0.55,
+          "one_line": "Rising 10yr yields and cooling risk appetite (VIX +8% 1m, Nasdaq -2.5% 1m) pressure AMC's leveraged, speculative profile."
+        }
+      ],
+      "contributions": [
+        {
+          "domain": "technical",
+          "lean": "bull",
+          "conviction": 0.55,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": 0.33,
+          "one_line": "Strong volume-backed 5d surge above all SMAs with bullish MACD, but stretched vs 200-SMA and still down 1m and off highs."
+        },
+        {
+          "domain": "fundamentals",
+          "lean": "bear",
+          "conviction": 0.75,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": -0.45,
+          "one_line": "Revenue growth is real, but negative equity, sub-1 current ratio, and persistent losses dominate the picture."
+        },
+        {
+          "domain": "estimates",
+          "lean": "bear",
+          "conviction": 0.55,
+          "confidence": "low",
+          "weight": 0.3,
+          "contribution": -0.165,
+          "one_line": "Price above mean target (-8.88% implied), hold-leaning consensus from only 6 analysts with huge target dispersion."
+        },
+        {
+          "domain": "news",
+          "lean": "bull",
+          "conviction": 0.65,
+          "confidence": "high",
+          "weight": 1.0,
+          "contribution": 0.65,
+          "one_line": "Genuine record-revenue earnings beat with attendance growth drives the pop, but debt overhang and slate-dependence temper durability."
+        },
+        {
+          "domain": "options",
+          "lean": "bull",
+          "conviction": 0.35,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": 0.21,
+          "one_line": "Calls dominate OI (0.18 P/C) but 128% IV and 29.7% implied move flag a volatile, high-risk two-way setup."
+        },
+        {
+          "domain": "macro",
+          "lean": "bear",
+          "conviction": 0.55,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": -0.33,
+          "one_line": "Rising 10yr yields and cooling risk appetite (VIX +8% 1m, Nasdaq -2.5% 1m) pressure AMC's leveraged, speculative profile."
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "symbol": "CLBK",
+      "spot_price": 24.5,
+      "direction": "neutral",
+      "directional_score": 0.0409,
+      "agreement": 0.0,
+      "agreement_exponent": 1.0,
+      "agreement_weighted_score": 0.0,
+      "lean_counts": {
+        "bull": 3,
+        "bear": 3,
+        "neutral": 0
+      },
+      "dissenters": [],
+      "contributions": [
+        {
+          "domain": "technical",
+          "lean": "bull",
+          "conviction": 0.5,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": 0.3,
+          "one_line": "Powerful volume-backed breakout to new highs, but RSI 83 and 39% extension above SMA200 flag high pullback risk."
+        },
+        {
+          "domain": "fundamentals",
+          "lean": "bear",
+          "conviction": 0.55,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": -0.33,
+          "one_line": "Rich valuation (2.17x book, 44x trailing P/E) sits awkwardly on a weak 4.92% ROE for this regional bank."
+        },
+        {
+          "domain": "estimates",
+          "lean": "bear",
+          "conviction": 0.35,
+          "confidence": "low",
+          "weight": 0.3,
+          "contribution": -0.105,
+          "one_line": "Price is 22% above a stale, 2-analyst $19 target with no rating data - thin, unreliable bear signal."
+        },
+        {
+          "domain": "news",
+          "lean": "bull",
+          "conviction": 0.55,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": 0.33,
+          "one_line": "Thrift conversion + Northfield acquisition just closed, doubling scale \u2014 durable but day-one pop risks arb-driven fade."
+        },
+        {
+          "domain": "options",
+          "lean": "bull",
+          "conviction": 0.35,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": 0.21,
+          "one_line": "Calls dominate OI (0.34 P/C) but 50% IV and a 9% implied move flag real turbulence ahead."
+        },
+        {
+          "domain": "macro",
+          "lean": "bear",
+          "conviction": 0.45,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": -0.27,
+          "one_line": "Hawkish Fed pivot, rising yields, and VIX uptick pressure funding costs for a small deposit-funded thrift like CLBK."
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "symbol": "ACHR",
+      "spot_price": 5.31,
+      "direction": "neutral",
+      "directional_score": -0.0341,
+      "agreement": 0.2273,
+      "agreement_exponent": 1.0,
+      "agreement_weighted_score": -0.0077,
+      "lean_counts": {
+        "bull": 3,
+        "bear": 2,
+        "neutral": 1
+      },
+      "dissenters": [],
+      "contributions": [
+        {
+          "domain": "technical",
+          "lean": "neutral",
+          "conviction": 0.35,
+          "confidence": "high",
+          "weight": 1.0,
+          "contribution": 0.0,
+          "one_line": "Sharp 5d bounce (+16.7%) above SMA-20 lacks volume confirmation and remains deep below SMA-200 (-27%)."
+        },
+        {
+          "domain": "fundamentals",
+          "lean": "bear",
+          "conviction": 0.75,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": -0.45,
+          "one_line": "Pre-revenue eVTOL burning $417M FCF/yr with -48% ROE and 2,132x P/S; cash cushion buys time, not fundamentals."
+        },
+        {
+          "domain": "estimates",
+          "lean": "bull",
+          "conviction": 0.55,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": 0.33,
+          "one_line": "Buy consensus and ~98% upside to $10.50 target, but 4x high-low spread and negative earnings temper conviction."
+        },
+        {
+          "domain": "news",
+          "lean": "bull",
+          "conviction": 0.55,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": 0.33,
+          "one_line": "Real defense-platform unveiling with an existing capitalized partner, but no contract yet and prone to sentiment overshoot at this share price."
+        },
+        {
+          "domain": "options",
+          "lean": "bull",
+          "conviction": 0.4,
+          "confidence": "medium",
+          "weight": 0.6,
+          "contribution": 0.24,
+          "one_line": "Low 0.17 put/call ratio favors bulls, but 97% IV and 17.7% implied move flag serious two-way binary risk."
+        },
+        {
+          "domain": "macro",
+          "lean": "bear",
+          "conviction": 0.6,
+          "confidence": "high",
+          "weight": 1.0,
+          "contribution": -0.6,
+          "one_line": "Rising 10Y yield (4.60%, +1.97% 1m) and Nasdaq underperformance pressure pre-revenue, long-duration growth name ACHR."
+        }
+      ],
+      "rank": 3
+    }
+  ]
+}
