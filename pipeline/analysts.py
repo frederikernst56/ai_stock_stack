@@ -364,14 +364,16 @@ def _latest_screener_file(screener_dir):
     return files[-1] if files else None
 
 
-def run_briefings(screener_dir=None, output_dir=None, top_n=None, symbols=None):
-    """Build briefings for the top screener candidates (or an explicit symbol list).
+def run_briefings(screener_dir=None, output_dir=None, max_candidates=None, symbols=None):
+    """Build briefings for the screener candidates (or an explicit symbol list).
 
-    Returns (output_path, output_dict). Reuses one macro snapshot for all tickers.
+    Briefs every candidate the screener passed, up to `max_candidates`
+    (defaults to config.DEBATE_MAX_CANDIDATES). Returns (output_path,
+    output_dict). Reuses one macro snapshot for all tickers.
     """
     screener_dir = screener_dir or config.SCREENER_OUTPUT_DIR
     output_dir = output_dir or config.DEBATE_OUTPUT_DIR
-    top_n = top_n or config.DEBATE_TOP_N
+    max_candidates = max_candidates or config.DEBATE_MAX_CANDIDATES
 
     source_file = None
     if symbols is None:
@@ -380,8 +382,9 @@ def run_briefings(screener_dir=None, output_dir=None, top_n=None, symbols=None):
             raise FileNotFoundError(f"No screener output found in {screener_dir}/")
         with open(source_file) as f:
             screener = json.load(f)
-        # Screener already sorts by volume-spike ratio, strongest first.
-        symbols = [c["symbol"] for c in screener["candidates"][:top_n]]
+        # Screener already sorts by volume-spike ratio, strongest first, so the
+        # cap (if it bites) keeps the most unusual movers.
+        symbols = [c["symbol"] for c in screener["candidates"][:max_candidates]]
 
     macro = macro_context()
     briefings = [build_briefing(sym, macro=macro) for sym in symbols]

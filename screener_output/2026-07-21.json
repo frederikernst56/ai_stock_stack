@@ -1,21 +1,27 @@
 {
   "run_date": "2026-07-21",
-  "generated_at_utc": "2026-07-21T00:54:30.538535+00:00",
+  "generated_at_utc": "2026-07-21T01:10:52.637284+00:00",
   "config": {
     "screens": [
       "day_gainers",
-      "most_actives"
+      "day_losers",
+      "most_actives",
+      "small_cap_gainers",
+      "most_shorted_stocks"
     ],
     "min_market_cap": 300000000,
-    "min_price_change_pct": 3.0,
-    "min_volume_spike_ratio": 1.5
+    "min_price_change_pct": 2.5,
+    "min_volume_spike_ratio": 1.3
   },
   "universe_pulled": {
     "day_gainers": 93,
+    "day_losers": 100,
     "most_actives": 100,
-    "total_unique": 177
+    "small_cap_gainers": 41,
+    "most_shorted_stocks": 100,
+    "total_unique": 395
   },
-  "candidates_passed": 16,
+  "candidates_passed": 39,
   "candidates": [
     {
       "symbol": "CLBK",
@@ -39,12 +45,12 @@
         },
         "change_percent": {
           "value": 4.61144,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 31.5,
-          "min": 1.5,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -71,12 +77,12 @@
         },
         "change_percent": {
           "value": 3.99932,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 6.75,
-          "min": 1.5,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -103,12 +109,44 @@
         },
         "change_percent": {
           "value": 26.8041,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 4.68,
-          "min": 1.5,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "SOPH",
+      "name": "SOPHiA GENETICS SA",
+      "price": 6.33,
+      "change_percent": 7.83646,
+      "day_volume": 624565,
+      "avg_volume_3m": 208098,
+      "market_cap": 531057024,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "small_cap_gainers"
+      ],
+      "volume_spike_ratio": 3.0,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 531057024,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 7.83646,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 3.0,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -124,6 +162,7 @@
       "sector": null,
       "exchange": "NYSE",
       "source_screens": [
+        "day_losers",
         "most_actives"
       ],
       "volume_spike_ratio": 2.75,
@@ -135,12 +174,44 @@
         },
         "change_percent": {
           "value": -10.5383,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 2.75,
-          "min": 1.5,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "MGY",
+      "name": "Magnolia Oil & Gas Corporation",
+      "price": 25.53,
+      "change_percent": -6.34629,
+      "day_volume": 6446699,
+      "avg_volume_3m": 2526962,
+      "market_cap": 4862734848,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_losers"
+      ],
+      "volume_spike_ratio": 2.55,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 4862734848,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -6.34629,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 2.55,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -157,7 +228,8 @@
       "exchange": "NasdaqCM",
       "source_screens": [
         "day_gainers",
-        "most_actives"
+        "most_actives",
+        "most_shorted_stocks"
       ],
       "volume_spike_ratio": 2.44,
       "filter_reasons": {
@@ -168,12 +240,44 @@
         },
         "change_percent": {
           "value": 5.28735,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 2.44,
-          "min": 1.5,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "NU",
+      "name": "Nu Holdings Ltd.",
+      "price": 13.99,
+      "change_percent": 2.94334,
+      "day_volume": 156824639,
+      "avg_volume_3m": 64656636,
+      "market_cap": 67578478592,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "most_actives"
+      ],
+      "volume_spike_ratio": 2.43,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 67578478592,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 2.94334,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 2.43,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -201,12 +305,12 @@
         },
         "change_percent": {
           "value": 19.5946,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 2.28,
-          "min": 1.5,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -222,6 +326,7 @@
       "sector": null,
       "exchange": "NasdaqGS",
       "source_screens": [
+        "day_losers",
         "most_actives"
       ],
       "volume_spike_ratio": 2.2,
@@ -233,12 +338,12 @@
         },
         "change_percent": {
           "value": -3.75884,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 2.2,
-          "min": 1.5,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -265,12 +370,12 @@
         },
         "change_percent": {
           "value": 4.0337,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 2.18,
-          "min": 1.5,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -298,12 +403,12 @@
         },
         "change_percent": {
           "value": 3.3195,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 2.01,
-          "min": 1.5,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -331,12 +436,12 @@
         },
         "change_percent": {
           "value": 19.5717,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 1.92,
-          "min": 1.5,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -363,12 +468,12 @@
         },
         "change_percent": {
           "value": 4.66516,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 1.89,
-          "min": 1.5,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -395,12 +500,108 @@
         },
         "change_percent": {
           "value": 7.93104,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 1.83,
-          "min": 1.5,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "SION",
+      "name": "Sionna Therapeutics, Inc.",
+      "price": 45.69,
+      "change_percent": -7.52884,
+      "day_volume": 800169,
+      "avg_volume_3m": 446950,
+      "market_cap": 2062918400,
+      "sector": null,
+      "exchange": "NasdaqGM",
+      "source_screens": [
+        "day_losers"
+      ],
+      "volume_spike_ratio": 1.79,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2062918400,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -7.52884,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.79,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "DGICB",
+      "name": "Donegal Group Inc.",
+      "price": 24.7,
+      "change_percent": 11.512421,
+      "day_volume": 3308,
+      "avg_volume_3m": 1900,
+      "market_cap": 915125248,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "small_cap_gainers"
+      ],
+      "volume_spike_ratio": 1.74,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 915125248,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 11.512421,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.74,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "MESO",
+      "name": "Mesoblast Limited",
+      "price": 16.63,
+      "change_percent": -3.98384,
+      "day_volume": 347641,
+      "avg_volume_3m": 208083,
+      "market_cap": 2153710592,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_losers"
+      ],
+      "volume_spike_ratio": 1.67,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2153710592,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -3.98384,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.67,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -428,12 +629,44 @@
         },
         "change_percent": {
           "value": 16.9704,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 1.62,
-          "min": 1.5,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "TEM",
+      "name": "Tempus AI, Inc.",
+      "price": 48.41,
+      "change_percent": -7.73776,
+      "day_volume": 10145555,
+      "avg_volume_3m": 6278104,
+      "market_cap": 8692730880,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_losers"
+      ],
+      "volume_spike_ratio": 1.62,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 8692730880,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -7.73776,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.62,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -460,12 +693,108 @@
         },
         "change_percent": {
           "value": 10.3663,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 1.6,
-          "min": 1.5,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "RYAAY",
+      "name": "Ryanair Holdings plc",
+      "price": 58.91,
+      "change_percent": -5.84945,
+      "day_volume": 2402854,
+      "avg_volume_3m": 1501791,
+      "market_cap": 30594174976,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_losers"
+      ],
+      "volume_spike_ratio": 1.6,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 30594174976,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -5.84945,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.6,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "SPRY",
+      "name": "ARS Pharmaceuticals, Inc.",
+      "price": 6.44,
+      "change_percent": -8.0,
+      "day_volume": 2932953,
+      "avg_volume_3m": 1858550,
+      "market_cap": 639513024,
+      "sector": null,
+      "exchange": "NasdaqGM",
+      "source_screens": [
+        "most_shorted_stocks"
+      ],
+      "volume_spike_ratio": 1.58,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 639513024,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -8.0,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.58,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "PENG",
+      "name": "Penguin Solutions, Inc.",
+      "price": 53.23,
+      "change_percent": -11.8855,
+      "day_volume": 5886231,
+      "avg_volume_3m": 3825957,
+      "market_cap": 2727649024,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_losers"
+      ],
+      "volume_spike_ratio": 1.54,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2727649024,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -11.8855,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.54,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -492,12 +821,44 @@
         },
         "change_percent": {
           "value": 4.55263,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 1.53,
-          "min": 1.5,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "AGNC",
+      "name": "AGNC Investment Corp.",
+      "price": 10.92,
+      "change_percent": -2.6738,
+      "day_volume": 23285514,
+      "avg_volume_3m": 15272332,
+      "market_cap": 12535387136,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "most_actives"
+      ],
+      "volume_spike_ratio": 1.52,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 12535387136,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -2.6738,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.52,
+          "min": 1.3,
           "passed": true
         }
       }
@@ -524,12 +885,401 @@
         },
         "change_percent": {
           "value": 5.77054,
-          "min": 3.0,
+          "min": 2.5,
           "passed": true
         },
         "volume_spike_ratio": {
           "value": 1.51,
-          "min": 1.5,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "ANGX",
+      "name": "Angel Studios, Inc.",
+      "price": 4.41,
+      "change_percent": 7.29926,
+      "day_volume": 1920098,
+      "avg_volume_3m": 1329150,
+      "market_cap": 822483520,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "small_cap_gainers"
+      ],
+      "volume_spike_ratio": 1.44,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 822483520,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 7.29926,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.44,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "AGX",
+      "name": "Argan, Inc.",
+      "price": 602.18,
+      "change_percent": 9.23702,
+      "day_volume": 475663,
+      "avg_volume_3m": 332877,
+      "market_cap": 8442109952,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.43,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 8442109952,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 9.23702,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.43,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "GLBE",
+      "name": "Global-E Online Ltd.",
+      "price": 36.58,
+      "change_percent": -4.03987,
+      "day_volume": 2371305,
+      "avg_volume_3m": 1660800,
+      "market_cap": 6144247296,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_losers"
+      ],
+      "volume_spike_ratio": 1.43,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 6144247296,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -4.03987,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.43,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "TARS",
+      "name": "Tarsus Pharmaceuticals, Inc.",
+      "price": 56.25,
+      "change_percent": -6.01504,
+      "day_volume": 1338788,
+      "avg_volume_3m": 944575,
+      "market_cap": 2454246656,
+      "sector": null,
+      "exchange": "NasdaqGS",
+      "source_screens": [
+        "day_losers"
+      ],
+      "volume_spike_ratio": 1.42,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2454246656,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -6.01504,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.42,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "CNK",
+      "name": "Cinemark Holdings, Inc.",
+      "price": 31.94,
+      "change_percent": 4.99671,
+      "day_volume": 3163229,
+      "avg_volume_3m": 2249786,
+      "market_cap": 3730201088,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_gainers"
+      ],
+      "volume_spike_ratio": 1.41,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 3730201088,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 4.99671,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.41,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "BE",
+      "name": "Bloom Energy Corporation",
+      "price": 197.06,
+      "change_percent": -8.32714,
+      "day_volume": 17174229,
+      "avg_volume_3m": 12196629,
+      "market_cap": 56052510720,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_losers",
+        "most_actives"
+      ],
+      "volume_spike_ratio": 1.41,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 56052510720,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -8.32714,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.41,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "ABEO",
+      "name": "Abeona Therapeutics Inc.",
+      "price": 6.48,
+      "change_percent": -7.42857,
+      "day_volume": 1705026,
+      "avg_volume_3m": 1209962,
+      "market_cap": 369328544,
+      "sector": null,
+      "exchange": "NasdaqCM",
+      "source_screens": [
+        "most_shorted_stocks"
+      ],
+      "volume_spike_ratio": 1.41,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 369328544,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -7.42857,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.41,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "MARA",
+      "name": "MARA Holdings, Inc.",
+      "price": 11.67,
+      "change_percent": 9.16745,
+      "day_volume": 60659809,
+      "avg_volume_3m": 43374609,
+      "market_cap": 4449426944,
+      "sector": null,
+      "exchange": "NasdaqCM",
+      "source_screens": [
+        "day_gainers",
+        "most_actives",
+        "most_shorted_stocks"
+      ],
+      "volume_spike_ratio": 1.4,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 4449426944,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 9.16745,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.4,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "CAVA",
+      "name": "CAVA Group, Inc.",
+      "price": 63.51,
+      "change_percent": -7.75599,
+      "day_volume": 4396299,
+      "avg_volume_3m": 3132755,
+      "market_cap": 7397254144,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "day_losers"
+      ],
+      "volume_spike_ratio": 1.4,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 7397254144,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -7.75599,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.4,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "TRVI",
+      "name": "Trevi Therapeutics, Inc.",
+      "price": 16.77,
+      "change_percent": -12.0608,
+      "day_volume": 2839784,
+      "avg_volume_3m": 2042808,
+      "market_cap": 2380999936,
+      "sector": null,
+      "exchange": "NasdaqGM",
+      "source_screens": [
+        "day_losers"
+      ],
+      "volume_spike_ratio": 1.39,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 2380999936,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -12.0608,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.39,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "CLF",
+      "name": "Cleveland-Cliffs Inc.",
+      "price": 8.98,
+      "change_percent": -3.23276,
+      "day_volume": 25839671,
+      "avg_volume_3m": 19083875,
+      "market_cap": 5122323456,
+      "sector": null,
+      "exchange": "NYSE",
+      "source_screens": [
+        "most_actives"
+      ],
+      "volume_spike_ratio": 1.35,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 5122323456,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": -3.23276,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.35,
+          "min": 1.3,
+          "passed": true
+        }
+      }
+    },
+    {
+      "symbol": "CLSK",
+      "name": "CleanSpark, Inc.",
+      "price": 14.42,
+      "change_percent": 10.6677,
+      "day_volume": 29904118,
+      "avg_volume_3m": 22707413,
+      "market_cap": 3700296192,
+      "sector": null,
+      "exchange": "NasdaqCM",
+      "source_screens": [
+        "day_gainers",
+        "most_actives",
+        "most_shorted_stocks"
+      ],
+      "volume_spike_ratio": 1.32,
+      "filter_reasons": {
+        "market_cap": {
+          "value": 3700296192,
+          "min": 300000000,
+          "passed": true
+        },
+        "change_percent": {
+          "value": 10.6677,
+          "min": 2.5,
+          "passed": true
+        },
+        "volume_spike_ratio": {
+          "value": 1.32,
+          "min": 1.3,
           "passed": true
         }
       }
