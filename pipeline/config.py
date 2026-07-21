@@ -43,6 +43,17 @@ TECH_HISTORY_PERIOD = "1y"      # yfinance history window (needs ~1y for the 200
 TECH_RSI_PERIOD = 14
 TECH_MA_WINDOWS = [20, 50, 200]  # simple moving averages to report
 
+# --- Synthesis stage (stage 4) ---
+
+# How hard the final ranking rewards analyst *agreement* (breadth of consensus).
+# The per-ticker score is  directional_score S × agreement A ** SYNTHESIS_AGREEMENT_EXPONENT.
+#   1.0 = consensus-seeking (default): a name the whole panel mildly likes can
+#         outrank one that's more strongly liked on average but hotly contested.
+#   0.0 = conviction-seeking: agreement is ignored, ranking by net directional
+#         strength alone — treats analyst disagreement as edge, not risk.
+#   between = dial from one philosophy toward the other.
+SYNTHESIS_AGREEMENT_EXPONENT = 1.0
+
 # Macro context tickers (index/rate proxies) pulled once per run, not per-stock.
 # Kept light on purpose: the Macro analyst reads the regime, it doesn't model it.
 MACRO_TICKERS = {
